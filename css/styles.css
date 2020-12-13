@@ -1,0 +1,123 @@
+/* AUTHOR @ Juliana Virgilio*/
+/*
+COLOR PALETTE
+https://coolors.co/FFFFFF-000004-011936-EDE0D4-766C7F
+#FFFFFF -  white
+#000004 - Black
+#011936 - Oxford Blue
+#EDE0D4 - Almond
+#766C7F - Old Lavander
+*/
+
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: #000004;
+  margin: 0;
+  padding: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 900px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #000004;
+  padding: 25px 0;
+  list-style: none; /*removes bullets from the list*/
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+
+/* Product
+------------------------------------*/
+.products {
+  background: #FFFFFF;
+  padding-bottom: 15%;
+  padding-top: 10%;
+}
+.products a {
+  color: #011936;
+}
+
+.product-item {
+  overflow: hidden;
+}
+.product-item h3 {
+  margin-top: 0;
+}
+
+.product-img {
+  float:left;
+  display:inline; 
+  width: auto;
+  list-style: none;
+
+}
+.product-desc {
+  float:left;
+  display:inline; 
+  width: 50%;
+  list-style: none;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.tumble-img {
+  float:left;
+  display:inline; 
+  width: 27%;
+  list-style: none;
+  size: 150px;
+  align-items: center;
+}
+
+/* Home
+------------------------------------*/
+.home {
+  background: #FFFFFF;
+  padding-bottom: 15%;
+}
+
+.home-img-left {
+  float:left;
+  display:inline; 
+  width: auto;
+  list-style: none;
+
+}
+.home-desc-left {
+  float:left;
+  display:inline; 
+  width: 50%;
+  list-style: none;
+}
+.home-desc-right {
+  float: left;
+  display:inline; 
+  width: auto;
+  list-style: none;
+
+}
+.home-img-right {
+  float: left;;
+  display:inline; 
+  width: 50%;
+  list-style: none;
+}
