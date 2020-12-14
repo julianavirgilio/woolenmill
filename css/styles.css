@@ -102,7 +102,9 @@ a:hover {
 ------------------------------------*/
 .home {
   background: #FFFFFF;
-  padding-bottom: 15%;
+  margin-left: 15%;
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-size: x-large;
 }
 
 .home-img-left {
