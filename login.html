@@ -1,0 +1,149 @@
+<!--author @ AMY PERCIVAL-->
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head>	
+		<title>Login</title>	
+		<meta charset="UTF-8">
+		<link href = "css/externalLogin.css" rel = "stylesheet"> <!--link to external .css stylesheet-->
+		<script src="js/mainProject.js"></script> <!--link external JavaScript-->
+	</head>	
+		<body>
+<!--logo-->
+		<div id = "fullHeader">
+			<div>
+				<a href="#"><img id = "logo" src = images/logo.png alt = "image of logo"></a>
+			</div>
+<!-- nav menu -->
+			<div>
+				<ul id="nav">
+					<li><a href="#">H O M E</a></li>
+					<li><a href="Collection.html">C O L L E C T I O N </a></li> <!--'&nbsp;' to create empty space-->
+					<li><a href="#">O U R &nbsp;&nbsp; S T O R Y</a></li>
+					<li><a href="Contact.html">C O N T A C T</a></li>
+					<li><a href="login.html"><img id = "userIcon" src = images/user.png alt = "user icon"></a>
+					<li><a href="#"><img id = "basketIcon" src = images/basket.png alt = "basket icon"></a>
+				</ul>
+			</div>
+<!--header begins here-->
+			<div class = "header">
+				<p> H E L L O, &nbsp;&nbsp;T H E R E</p>
+			</div>	
+		</div>		
+<!-- form begins here-->
+			<div class = "loginForm">
+				<form name="loginForm" id = "loginForm" method="post" action=" mailto:x20163266@student.ncirl.ie" onsubmit="return !! validateFormLogin()"> <!-- call validate function in 'form' tag when user clicks submit button-->
+			<table> 
+<!-- password input field -->
+				<tr>
+					<td>
+						<label id = "h2"><i> E X I S T I N G &nbsp;&nbsp; C U S T O M E R</i></label>
+					</td>
+				</tr>
+				<tr>
+					<td>				
+						<p id = "formP1">E M A I L *</p>	
+					</td>	
+				</tr>
+					<tr>			
+						<td>
+							<input type = "email" name = "contactEmail1" size = "20" placeholder="E.g. example@example.com"><br/><!-- 'size' changes length of input box-->
+						</td>
+				</tr> 
+			<tr>
+				<td>
+<!-- second table heading-->		 			
+					<p id = "formP2"> P A S S W O R D *</p>
+				</td>
+				</tr>
+			 <tr>
+<!-- pizza size input field -->		
+				<td>
+					<input type = "password" name = "password"><!-- 'size' changes length of input box-->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input id = "submit" type ="submit" name = "login" value ="LOGIN"> 
+				</td>
+			</tr>
+		</table>
+<!--form ends-->			
+		</form>
+	</div>
+	<div class = "newLoginForm">
+				<form name="newLoginForm" id = "newLoginForm" method="post" action=" mailto:x20163266@student.ncirl.ie" onsubmit="return !! validateFormLogin2()"> <!-- call validate function in 'form' tag when user clicks submit button-->
+			<table> 
+<!-- password input field -->
+				<tr>
+					<td>
+						<label id = "h3"><i> N E W &nbsp;&nbsp; C U S T O M E R</i></label>
+					</td>
+				</tr>
+				<tr>
+					<td>				
+						<p id = "formP3">F U L L &nbsp;&nbsp;N A M E  *</p>	
+					</td>	
+				</tr>
+					<tr>			
+						<td>
+							<input type = "text" name = "contactName2" size = "20" placeholder= "Your full name"><br/><!-- 'size' changes length of input box-->
+						</td>
+				</tr> 
+				<tr>
+					<td>				
+						<p id = "formP4">E M A I L *</p>	
+					</td>	
+				</tr>
+					<tr>			
+						<td>
+							<input type = "email" name = "contactEmail2" size = "20" placeholder="E.g. example@example.com"><br/><!-- 'size' changes length of input box-->
+						</td>
+				</tr> 
+			<tr>
+				<td>
+<!-- second table heading-->		 			
+					<p id = "formP5"> C R E A T E &nbsp;&nbsp; P A S S W O R D </p>
+				</td>
+				</tr>
+			 <tr>
+<!-- pizza size input field -->		
+				<td>
+					<input type = "password" name = "password1"><!-- 'size' changes length of input box-->
+				</td>
+			</tr>
+			<tr>
+				<td>
+<!-- second table heading-->		 			
+					<p id = "formP6"> V E R I F Y &nbsp;&nbsp; P A S S W O R D </p>
+				</td>
+				</tr>
+			 <tr>
+<!-- pizza size input field -->		
+				<td>
+					<input type = "password" name = "password2"><!-- 'size' changes length of input box-->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input id = "submit2" type ="submit" name = "login" value ="CREATE ACCOUNT"> 
+				</td>
+			</tr>
+		</table>
+<!--form ends-->			
+		</form>
+	</div>
+	<div>
+		<ul id="footerNav">
+			<li><a href="#">Home</a></li>
+			<li><a href="Collection.html">Collection</a></li> <!--'&nbsp;' to create empty space-->
+			<li><a href="#">Our Story</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="#">Size Guide</a></li>
+			<li><a href="#">Terms and Conditions</a></li>
+			<li><a href="#">FAQs</a></li>
+			<img id = "sheep" src = images/gif/walkingsheep.gif alt = "sheep gif">
+			<p id = "copy"><i>© 2020 Woollen Mill & Co. All Rights Reserved</i></p>
+		</ul>
+	</div>						
+</body>
+</html>
