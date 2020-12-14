@@ -86,11 +86,10 @@ a:hover {
 .tumble-img {
   float:left;
   display:inline; 
-  width: 27%;
+  width: 15%;
   list-style: none;
   size: 150px;
-  margin-block-start: 5%;
-  margin-inline-start: 15%;
+
 }
 .tumble-img a {
   display: block; /*fills up the entire list item and makes the whole area clickable*/
