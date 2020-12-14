@@ -53,6 +53,10 @@ a:hover {
 }
 .products a {
   color: #011936;
+  display: block; /*fills up the entire list item and makes the whole area clickable*/
+  text-decoration: none; /*removes the underline from the anchor*/ 
+  font-weight: bold;
+  color: black; 
 }
 
 .product-item {
@@ -85,9 +89,15 @@ a:hover {
   width: 27%;
   list-style: none;
   size: 150px;
-  align-items: center;
+  margin-block-start: 5%;
+  margin-inline-start: 15%;
 }
-
+.tumble-img a {
+  display: block; /*fills up the entire list item and makes the whole area clickable*/
+  text-decoration: none; /*removes the underline from the anchor*/ 
+  font-weight: bold;
+  color: black;
+}
 /* Home
 ------------------------------------*/
 .home {
