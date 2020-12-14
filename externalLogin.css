@@ -1,0 +1,226 @@
+/* AUTHOR @ AMY PERCIVAL*/
+/* removes white margin around edge of background image */
+body{
+  margin: 0 0 0 0;
+}
+/* background image */
+
+/* style main header*/
+.header {
+	text-align: center;
+	color: black;
+  padding-top: 3%;
+  border-bottom: 1px solid black;
+  font-size:180%;
+}
+
+#fullHeader{
+  background-color: #EDE0D4;
+  padding:1px;
+}
+
+#h2, #h3 {
+  text-align: left;
+  color: black;
+  font-size:80%;
+  padding-top:10px;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  margin-left:2%;
+  background-color: #9C91A1;
+  margin-left: 1px;
+}
+
+/* Woollen Mill & Co. logo*/
+#logo{
+  width:10%;
+  margin-left: 4%;
+  margin-top:auto;
+  position: absolute;
+  z-index: 9999;
+}
+#userIcon{
+  width:1.5%;
+  position: absolute;
+  z-index: 9999;
+}
+
+#basketIcon{
+  width:1.5%;
+  position: absolute;
+  z-index: 9999;
+}
+
+/* navigation menu */
+#nav {
+width: 80%; /*makes the menu width the same as the window width*/ 
+list-style: none; /*removes bullets from the list*/
+padding-left: 15%;
+padding-bottom: 0;
+}
+
+#nav li {
+float: left; /*floats list items left*/
+clear:right;
+padding-left:9.3%;
+font-size:80%;
+padding-top: 1%;
+}
+
+#nav li a {
+display: block; /*fills up the entire list item and makes the whole area clickable*/
+text-decoration: none; /*removes the underline from the anchor*/ 
+font-weight: bold;
+color: black;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#nav li a:hover {
+color: #736779;
+}
+
+/* main form stylings */
+.loginForm{
+  margin-top:2%;
+  margin-left: 10%;
+	font-family: "Courier New", Courier, monospace;
+  float: left;
+}
+
+.newLoginForm{
+  margin-top:2%;
+  margin-left: 30%;
+  font-family: "Courier New", Courier, monospace;
+  float: left;
+}
+
+
+/* first header in form */
+#formP1, #formP2, #formP3, #formP4, #formP5, #formP6 {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size:75%;
+  color:black;
+  font-weight: bold;
+}
+
+/* form stylings for input of type text boxes*/
+input[type=text], select, textarea{
+  	width: 250%;
+  	padding: 10px;
+  	display: inline-block;
+  	border-radius: 0px;
+  	box-sizing: border-box;
+  	border: 1px solid black;
+  	transition: 0.5s;
+  	outline: none; /*removes deault 'blue' outline when field is selected*/
+    background-color:rgba(0, 0, 0, 0);/* allows change in opacity without affected text */
+    color:black;
+    font-family: "Courier New", Courier, monospace;
+    resize: vertical;
+}
+
+input[type=email]{
+    width: 250%;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    transition: 0.5s;
+    outline: none; /*removes deault 'blue' outline when field is selected*/
+    background-color:rgba(0, 0, 0, 0);/* allows change in opacity without affected text */
+    color:black;
+    font-family: "Courier New", Courier, monospace;
+    resize: vertical;
+}
+
+input[type=email]:focus {
+    border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
+}
+input[type=text]:focus {
+    border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
+}
+
+textarea:focus {
+    border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
+}
+
+/* submit box styling */
+input[type=submit] {
+  	width: 100%;
+  	background-color: #EDE0D4;
+  	padding: 4%;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	outline: none;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-left:150%;
+}
+
+/* changes colour of submit box on hover*/
+input[type=submit]:hover {
+  	background-color: #736779;
+}
+
+/* form styling for input of type password box*/
+input[type=password], select {
+    width: 250%;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    transition: 0.5s;
+    outline: none; /*removes deault 'blue' outline when field is selected*/
+    background-color:rgba(0, 0, 0, 0);/* allows change in opacity without affected text */
+    color:black;
+    font-family: "Courier New", Courier, monospace;
+    resize: vertical;
+}
+
+/* gives colour transition to password word when selected*/
+input[type=password]:focus {
+    border: 1px solid #c1bac4;
+}
+
+ #footerNav {
+  float:left;
+  width:97.2%; /*makes the menu width the same as the window width*/ 
+  list-style: none; /*removes bullets from the list*/
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #011936ff;
+  margin-bottom: 0;
+  margin-top:1%;
+}
+ #footerNav li {
+  float: left; /*floats list items left*/
+  clear:right;
+  padding-left: 8%;
+  font-size:80%;
+}
+  #footerNav li a {
+  text-decoration: none; /*removes the underline from the anchor*/ 
+  font-weight: bold;
+  color: white;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+  #footerNav li a:hover {
+  color: #EDE0D4;
+}
+
+  #copy{
+  text-align: center;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin-top:3%;
+  margin-bottom:0;
+  font-size:80%;
+  font-weight: bold;
+  color:white;
+}
+
+  #sheep{
+    margin-left: 45%;
+    width: 7%;
+  }
