@@ -31,7 +31,7 @@ a:hover {
 }
 .content-wrap {
   max-width: 900px;
-  /* width: 95%; */
+  width: 95%;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -77,21 +77,19 @@ a:hover {
 .product-desc {
   float:left;
   display:inline; 
-  width: 51%;
+  width: 50%;
   list-style: none;
-  color: black;
-  font-family: "Palatino Linotype", "Book Antiqua", serif;
-  font-size:large;
-  font-size: 22px;
-
 }
-
+.price {
+  color: grey;
+  font-size: 22px;
+}
 .tumble-img {
   float:left;
   display:inline; 
   width: 15%;
   list-style: none;
-  size: 100px;
+  size: 150px;
 
 }
 .tumble-img a {
@@ -165,6 +163,19 @@ a:hover {
   }
 
 
+/*** GLOVE DETAILS2 ****/
+
+/* The grid: Four equal columns that floats next to each other */
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
 
 
 /* Closable button inside the expanded image */

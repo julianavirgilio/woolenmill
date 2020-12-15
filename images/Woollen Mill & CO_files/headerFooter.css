@@ -1,0 +1,153 @@
+
+/* AUTHOR @ AMY PERCIVAL */
+
+/*
+COLOR PALETTE
+https://coolors.co/FFFFFF-000004-011936-EDE0D4-766C7F
+#FFFFFF -  white
+#000004 - Black
+#011936 - Oxford Blue
+#EDE0D4 - Almond
+#766C7F - Old Lavander
+*/
+
+body{
+  margin: 0 0 0 0;
+}
+
+/******  main header ******/
+.header {
+  text-align: center;
+  color: black;
+  padding-top: 3%;
+  border-bottom: 1px solid black;
+  font-size:180%;
+}
+ 
+#fullHeader{
+  background-color: #EDE0D4;
+  padding:1px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/*main header text*/
+#h2 {
+  text-align: center;
+  color: black;
+  font-size:100%;
+  padding-top:10px;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  background-color: #9C91A1;
+  margin-top:2%;
+  width: 30%;
+  margin-left: 35.5%
+}
+
+/* Woollen Mill & Co. logo*/
+#logo{
+  width:8%;
+  margin-left: 2.5%;
+  margin-top:auto;
+  position: absolute;
+  z-index: 9999;
+}
+
+/*LOGIN ICON*/
+#userIcon{
+  width:1%;
+  position: absolute;
+  z-index: 9999;
+}
+
+/*BASKET ICON*/
+#basketIcon{
+  width:1%;
+  position: absolute;
+  z-index: 9999;
+  margin-right: 2.5%;
+}
+
+
+/******* navigation menu ********/
+
+#nav {
+width: 80%; /*makes the menu width the same as the window width*/ 
+list-style: none; /*removes bullets from the list*/
+/* position: relative; */
+padding-left: 11%;
+/* padding-top: 5%; */
+padding-bottom: 0;
+}
+
+#nav li {
+float: left; /*floats list items left*/
+clear:right;
+padding-left:9.3%;
+font-size:80%;
+padding-top: 1%;
+}
+
+#nav li a {
+display: block; /*fills up the entire list item and makes the whole area clickable*/
+/* padding: 9px 25px;  */
+text-decoration: none; /*removes the underline from the anchor*/ 
+font-weight: bold;
+color: black;
+font-family:"Palatino Linotype", "Book Antiqua", "Palatino", serif;
+}
+
+#nav li a:hover {
+color: #736779;
+}
+
+
+/****** FOOTER *******/
+
+ #footerNav {
+  float:left;
+  width:100%; /*makes the menu width the same as the window width*/ 
+  list-style: none; /*removes bullets from the list*/
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #011936ff;
+  margin-bottom: 0;
+  margin-top:1%;
+}
+
+ #footerNav li {
+  float: left; /*floats list items left*/
+  clear:right;
+  padding-left: 8%;
+  font-size:80%;
+}
+
+  #footerNav li a {
+  text-decoration: none; /*removes the underline from the anchor*/ 
+  font-weight: bold;
+  color: white;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+  #footerNav li a:hover {
+  color: #EDE0D4;
+}
+
+/*copy right text*/
+  #copy{
+  text-align: center;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin-top:3%;
+  margin-bottom:0;
+  font-size:80%;
+  font-weight: bold;
+  color:white;
+}
+
+/*walking sheep gif*/
+ #sheep{
+    margin-left: 45%;
+    width: 7%;
+  }
