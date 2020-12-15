@@ -165,8 +165,15 @@ a:hover {
   }
 
 
+/****** product details headers*******/
 
+#h9, #h10, #h11{
+  background-color: #9C91A1;
+  font-style: italic;
+  font-size:150%;
+  margin-left:10%;
 
+}
 /* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
