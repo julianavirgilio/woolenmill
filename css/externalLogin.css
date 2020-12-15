@@ -1,11 +1,21 @@
+
 /* AUTHOR @ AMY PERCIVAL*/
-/* removes white margin around edge of background image */
+
+/*
+COLOR PALETTE
+https://coolors.co/FFFFFF-000004-011936-EDE0D4-766C7F
+#FFFFFF -  white
+#000004 - Black
+#011936 - Oxford Blue
+#EDE0D4 - Almond
+#766C7F - Old Lavander
+*/
+
 body{
   margin: 0 0 0 0;
 }
-/* background image */
 
-/* style main header*/
+/******** main header text*******/
 .header {
 	text-align: center;
 	color: black;
@@ -14,11 +24,15 @@ body{
   font-size:180%;
 }
 
+ /******** main header background *******/
 #fullHeader{
   background-color: #EDE0D4;
   padding:1px;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
+/***** headers for login forms *******/
 #h2, #h3 {
   text-align: left;
   color: black;
@@ -39,12 +53,15 @@ body{
   position: absolute;
   z-index: 9999;
 }
+
+/*login icon*/
 #userIcon{
   width:1.5%;
   position: absolute;
   z-index: 9999;
 }
 
+/*cart icon*/
 #basketIcon{
   width:1.5%;
   position: absolute;
@@ -75,11 +92,12 @@ color: black;
 font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+/*colour change on hover of nav menu*/
 #nav li a:hover {
 color: #736779;
 }
 
-/* main form stylings */
+/*********** login form style ************/
 .loginForm{
   margin-top:2%;
   margin-left: 10%;
@@ -87,6 +105,7 @@ color: #736779;
   float: left;
 }
 
+/********* new customer login ************/
 .newLoginForm{
   margin-top:2%;
   margin-left: 30%;
@@ -94,8 +113,7 @@ color: #736779;
   float: left;
 }
 
-
-/* first header in form */
+/* named form input boxes */
 #formP1, #formP2, #formP3, #formP4, #formP5, #formP6 {
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size:75%;
@@ -119,6 +137,7 @@ input[type=text], select, textarea{
     resize: vertical;
 }
 
+/*email input box*/
 input[type=email]{
     width: 250%;
     padding: 10px;
@@ -134,13 +153,16 @@ input[type=email]{
     resize: vertical;
 }
 
+/*change colour on focus*/
 input[type=email]:focus {
     border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
 }
+
 input[type=text]:focus {
     border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
 }
 
+/*change colour on focus of textbox*/
 textarea:focus {
     border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
 }
@@ -184,6 +206,7 @@ input[type=password]:focus {
     border: 1px solid #c1bac4;
 }
 
+/********** footer nav styles ***********/
  #footerNav {
   float:left;
   width:97.2%; /*makes the menu width the same as the window width*/ 
@@ -194,22 +217,26 @@ input[type=password]:focus {
   margin-bottom: 0;
   margin-top:1%;
 }
+
  #footerNav li {
   float: left; /*floats list items left*/
   clear:right;
   padding-left: 8%;
   font-size:80%;
 }
+
   #footerNav li a {
   text-decoration: none; /*removes the underline from the anchor*/ 
   font-weight: bold;
   color: white;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
   #footerNav li a:hover {
   color: #EDE0D4;
 }
 
+/*copyright text*/
   #copy{
   text-align: center;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -220,6 +247,7 @@ input[type=password]:focus {
   color:white;
 }
 
+/*walking sheep gif in footer*/
   #sheep{
     margin-left: 45%;
     width: 7%;

@@ -23,6 +23,7 @@ body {
   font-family: "Palatino Linotype", "Book Antiqua", serif;
   font-size: 15px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 a:hover {
@@ -118,6 +119,8 @@ a:hover {
   display:inline; 
   width: 50%;
   list-style: none;
+  font-size:70%; /*smaller looks more spohpisticaed(?)*/
+  text-align: justify; /*justified text to it takes up and equal amount of the page */
 }
 .home-desc-right {
   float: left;
@@ -132,3 +135,31 @@ a:hover {
   width: 50%;
   list-style: none;
 }
+
+/******** OUR STORY ********/
+
+/*headers*/
+#h, #h3, #h4, #h5{
+  background-color: #9C91A1;
+  font-style: italic;
+  text-align:left;
+  font-size:120%;
+  }
+
+/******** HOME PAGE *******/
+#h6, #h7{
+  background-color: #9C91A1;
+  font-style: italic;
+  text-align:left;
+  font-size:100%;
+  }
+
+  #h8{
+  background-color: #9C91A1;
+  font-style: italic;
+  text-align:left;
+  font-size:100%;
+  margin-left:40%;
+  }
+
+
