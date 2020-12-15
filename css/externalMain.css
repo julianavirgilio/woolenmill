@@ -107,6 +107,7 @@ color: #736779;
   margin-top:1%;
   margin-left:33%;
   margin-right:30%;
+  margin-bottom: 15%;
 	font-family: "Courier New", Courier, monospace;
   display:inline-block;
   background: rgba(1,1,1,0);/* allows change in opacity without affecting text opacity*/
@@ -191,7 +192,7 @@ input[type=submit]:hover {
 /************ footer nav ***********/
  #footerNav {
   float:left;
-  width:97.2%; /*makes the menu width the same as the window width*/ 
+  width:100%; /*makes the menu width the same as the window width*/ 
   list-style: none; /*removes bullets from the list*/
   padding-top: 2%;
   padding-bottom: 2%;

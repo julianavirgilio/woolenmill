@@ -48,8 +48,8 @@ body{
 
 /* Woollen Mill & Co. logo*/
 #logo{
-  width:8%;
-  margin-left: 2.5%;
+  width:10%;
+  margin-left: 4%;
   margin-top:auto;
   position: absolute;
   z-index: 9999;
@@ -57,14 +57,14 @@ body{
 
 /*LOGIN ICON*/
 #userIcon{
-  width:1%;
+  width:1.5%;
   position: absolute;
   z-index: 9999;
 }
 
 /*BASKET ICON*/
 #basketIcon{
-  width:1%;
+  width:1.5%;
   position: absolute;
   z-index: 9999;
   margin-right: 2.5%;
@@ -77,9 +77,10 @@ body{
 width: 80%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
 /* position: relative; */
-padding-left: 11%;
+padding-left: 15%;
 /* padding-top: 5%; */
 padding-bottom: 0;
+z-index: 9999;
 }
 
 #nav li {
@@ -96,7 +97,7 @@ display: block; /*fills up the entire list item and makes the whole area clickab
 text-decoration: none; /*removes the underline from the anchor*/ 
 font-weight: bold;
 color: black;
-font-family:"Palatino Linotype", "Book Antiqua", "Palatino", serif;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 #nav li a:hover {
