@@ -23,6 +23,7 @@ body {
   font-family: "Palatino Linotype", "Book Antiqua", serif;
   font-size: 15px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 a:hover {
@@ -118,6 +119,8 @@ a:hover {
   display:inline; 
   width: 50%;
   list-style: none;
+  font-size:70%; /*smaller looks more spohpisticaed(?)*/
+  text-align: justify; /*justified text to it takes up and equal amount of the page */
 }
 .home-desc-right {
   float: left;
@@ -132,3 +135,16 @@ a:hover {
   width: 50%;
   list-style: none;
 }
+
+#simple{
+  padding-left:40%;
+}
+
+/******** OUR STORY ********/
+#h2ourstory{
+  background-color: #9C91A1;
+  font-style: italic;
+  text-align: center;
+  font-size:120%;
+  }
+
