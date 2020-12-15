@@ -76,9 +76,7 @@ body{
 #nav {
 width: 80%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
-/* position: relative; */
 padding-left: 15%;
-/* padding-top: 5%; */
 padding-bottom: 0;
 z-index: 9999;
 }
@@ -93,7 +91,6 @@ padding-top: 1%;
 
 #nav li a {
 display: block; /*fills up the entire list item and makes the whole area clickable*/
-/* padding: 9px 25px;  */
 text-decoration: none; /*removes the underline from the anchor*/ 
 font-weight: bold;
 color: black;

@@ -58,23 +58,23 @@ body{
 /*login icon*/
 #userIcon{
   width:1.5%;
-  position: absolute;
   z-index: 9999;
+  position: absolute;
 }
 
 /*cart icon*/
 #basketIcon{
   width:1.5%;
-  position: absolute;
-  margin-right: 2.5%; 
   z-index: 9999;
+  position: absolute;
+  padding-left:5%;
 }
 
 /****** navigation menu *******/
 #nav {
-width: 80%; /*makes the menu width the same as the window width*/ 
+width: 69%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
-padding-left: 15%;
+padding-left: 13%;
 padding-bottom: 0;
 z-index: 9999;
 }
@@ -88,8 +88,7 @@ padding-top: 1%;
 }
 
 #nav li a {
-display: block; /*fills up the entire list item and makes the whole area clickable*/
-/*padding: 9px 25px; */
+/*display: block;*/ /*fills up the entire list item and makes the whole area clickable*/
 text-decoration: none; /*removes the underline from the anchor*/ 
 font-weight: bold;
 color: black;
@@ -237,9 +236,9 @@ input[type=submit]:hover {
   width: 28%;
   padding:2.5%;
   padding-left: 4%;
-  padding-top: 2%;
+  padding-top: 7%;
   float:left;
-  padding-bottom:4%;
+  padding-bottom:7%;
 }
 
 #hat:hover {
@@ -249,7 +248,7 @@ input[type=submit]:hover {
 #scarf{
   width: 24.8%;
   padding:2.5%;
-  padding-top: 2%;
+  padding-top: 7%;
   float:left;
 }
 
@@ -260,7 +259,7 @@ input[type=submit]:hover {
 #gloves{
   width: 29.4%;
   padding:2.5%;
-  padding-top: 2%;
+  padding-top: 7%;
   float:left;
 }
 

@@ -81,8 +81,9 @@ a:hover {
   list-style: none;
   color: black;
   font-family: "Palatino Linotype", "Book Antiqua", serif;
-  font-size:large;
   font-size: 22px;
+  font-size:120%; /*smaller looks more spohpisticaed(?)*/
+  text-align: justify; /*justified text to it takes up and equal amount of the page */
 
 }
 
