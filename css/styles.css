@@ -100,11 +100,17 @@ a:hover {
   font-weight: bold;
   color: black;
 }
+/* Closable button inside the expanded image */
+.closebtn {
+  position:relative;
+  color: transparent;
+  font-size: 0px;
+}
 /* Home
 ------------------------------------*/
 .home {
   background: #FFFFFF;
-  margin-left: 8%;
+  margin-left: 5%;
   font-family: "Palatino Linotype", "Book Antiqua", serif;
   font-size: x-large;
 }
@@ -124,20 +130,6 @@ a:hover {
   font-size:70%; /*smaller looks more spohpisticaed(?)*/
   text-align: justify; /*justified text to it takes up and equal amount of the page */
 }
-.home-desc-right {
-  float: left;
-  display:inline; 
-  width: auto;
-  list-style: none;
-
-}
-.home-img-right {
-  float: left;;
-  display:inline; 
-  width: 50%;
-  list-style: none;
-}
-
 
 /* Slideshow container */
 .slideshow-container {
@@ -195,15 +187,6 @@ a:hover {
   background-color: #717171;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 /******** OUR STORY ********/
 
 /*headers*/
@@ -240,12 +223,7 @@ a:hover {
   margin-left:10%;
 
 }
-/* Closable button inside the expanded image */
-.closebtn {
-  position:relative;
-  color: transparent;
-  font-size: 0px;
-}
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
