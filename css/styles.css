@@ -104,7 +104,7 @@ a:hover {
 ------------------------------------*/
 .home {
   background: #FFFFFF;
-  margin-left: 15%;
+  margin-left: 8%;
   font-family: "Palatino Linotype", "Book Antiqua", serif;
   font-size: x-large;
 }
@@ -176,11 +176,9 @@ a:hover {
 }
 /* Closable button inside the expanded image */
 .closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
+  position:relative;
   color: transparent;
-  font-size: 2px;
+  font-size: 0px;
 }
 @media only screen and (max-width: 700px) {
   .responsive {
