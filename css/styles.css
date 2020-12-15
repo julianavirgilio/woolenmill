@@ -141,10 +141,12 @@ a:hover {
 }
 
 /******** OUR STORY ********/
-#h2ourstory{
+
+/*headers*/
+#h, #h3, #h4, #h5{
   background-color: #9C91A1;
   font-style: italic;
-  text-align: center;
+  text-align:left;
   font-size:120%;
   }
 
