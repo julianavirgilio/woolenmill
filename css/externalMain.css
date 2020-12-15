@@ -74,9 +74,7 @@ body{
 #nav {
 width: 80%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
-/*position: relative;*/
 padding-left: 15%;
-/*padding-top: 5%;*/
 padding-bottom: 0;
 z-index: 9999;
 }
@@ -234,7 +232,7 @@ input[type=submit]:hover {
     width: 7%;
 }
 
- /********** for "collection" page only *********/
+ /********** for "collection" *********/
 
 
 #hat{
@@ -272,6 +270,25 @@ input[type=submit]:hover {
   opacity: 80%;
 }
 
+/******* search page *******/
+
+/*#productList {
+width: 80%; /*makes the menu width the same as the window width*/ 
+list-style: none; /*removes bullets from the list*/
+padding-bottom: 0;
+z-index: 9999;
+padding-left: 10%;
+}*/
+
+/*#productList li {
+float: left; /*floats list items left*/
+clear:right;
+padding-left:9.3%;
+font-size:80%;
+padding-top: 1%;
+color:white;
+}
+*/
 
 
 

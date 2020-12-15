@@ -124,45 +124,25 @@ function validateFormLogin()
   	}
   }
 
-  const charactersList = document.getElementById('charactersList');
-const searchBar = document.getElementById('searchBar');
-let hpCharacters = [];
 
-searchBar.addEventListener('keyup', (e) => {
-    const searchString = e.target.value.toLowerCase();
+// ****** SEARCH BAR *****
 
-    const filteredCharacters = hpCharacters.filter((character) => {
-        return (
-            character.name.toLowerCase().includes(searchString) ||
-            character.house.toLowerCase().includes(searchString)
-        );
-    });
-    displayCharacters(filteredCharacters);
-});
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("productList");
+  li = ul.getElementsByTagName('li');
 
-const loadCharacters = async () => {
-    try {
-        const res = await fetch('https://hp-api.herokuapp.com/api/characters');
-        hpCharacters = await res.json();
-        displayCharacters(hpCharacters);
-    } catch (err) {
-        console.error(err);
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
     }
-};
-
-const displayCharacters = (characters) => {
-    const htmlString = characters
-        .map((character) => {
-            return `
-            <li class="character">
-                <h2>${character.name}</h2>
-                <p>House: ${character.house}</p>
-                <img src="${character.image}"></img>
-            </li>
-        `;
-        })
-        .join('');
-    charactersList.innerHTML = htmlString;
-};
-
-loadCharacters();
+  }
+}
