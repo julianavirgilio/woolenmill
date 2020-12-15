@@ -136,10 +136,6 @@ a:hover {
   list-style: none;
 }
 
-#simple{
-  padding-left:40%;
-}
-
 /******** OUR STORY ********/
 
 /*headers*/
@@ -149,4 +145,21 @@ a:hover {
   text-align:left;
   font-size:120%;
   }
+
+/******** HOME PAGE *******/
+#h6, #h7{
+  background-color: #9C91A1;
+  font-style: italic;
+  text-align:left;
+  font-size:100%;
+  }
+
+  #h8{
+  background-color: #9C91A1;
+  font-style: italic;
+  text-align:left;
+  font-size:100%;
+  margin-left:40%;
+  }
+
 
