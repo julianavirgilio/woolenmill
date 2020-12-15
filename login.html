@@ -8,7 +8,7 @@
 		<script src="js/mainProject.js"></script> <!--link external JavaScript-->
 	</head>	
 		<body>
-<!--logo-->
+<!-- woollen mill & co. logo-->
 		<div id = "fullHeader">
 			<div>
 				<a href="index.html"><img id = "logo" src = "images/logo.png" alt = "image of logo"></a>
@@ -29,11 +29,11 @@
 				<p> H E L L O, &nbsp;&nbsp;T H E R E</p>
 			</div>	
 		</div>		
-<!-- form begins here-->
+<!-- existing customer login form begins here-->
 			<div class = "loginForm">
 				<form name="loginForm" id = "loginForm" method="post" action=" mailto:x20163266@student.ncirl.ie" onsubmit="return !! validateFormLogin()"> <!-- call validate function in 'form' tag when user clicks submit button-->
 			<table> 
-<!-- password input field -->
+<!-- existing cutomer name input field -->
 				<tr>
 					<td>
 						<label id = "h2"><i> E X I S T I N G &nbsp;&nbsp; C U S T O M E R</i></label>
@@ -51,18 +51,19 @@
 				</tr> 
 			<tr>
 				<td>
-<!-- second table heading-->		 			
+<!-- existing customer password header-->		 			
 					<p id = "formP2"> P A S S W O R D *</p>
 				</td>
 				</tr>
 			 <tr>
-<!-- pizza size input field -->		
+<!-- existing customer password input-->	
 				<td>
 					<input type = "password" name = "password"><!-- 'size' changes length of input box-->
 				</td>
 			</tr>
 			<tr>
 				<td>
+<!--login button-->
 					<input id = "submit" type ="submit" name = "login" value ="LOGIN"> 
 				</td>
 			</tr>
@@ -70,17 +71,19 @@
 <!--form ends-->			
 		</form>
 	</div>
+<!-- new customer login form begins here-->
 	<div class = "newLoginForm">
 				<form name="newLoginForm" id = "newLoginForm" method="post" action=" mailto:x20163266@student.ncirl.ie" onsubmit="return !! validateFormLogin2()"> <!-- call validate function in 'form' tag when user clicks submit button-->
 			<table> 
-<!-- password input field -->
+<!-- new customer header -->
 				<tr>
 					<td>
 						<label id = "h3"><i> N E W &nbsp;&nbsp; C U S T O M E R</i></label>
 					</td>
 				</tr>
 				<tr>
-					<td>				
+					<td>	
+<!-- new customer name input -->			
 						<p id = "formP3">F U L L &nbsp;&nbsp;N A M E  *</p>	
 					</td>	
 				</tr>
@@ -90,7 +93,8 @@
 						</td>
 				</tr> 
 				<tr>
-					<td>				
+					<td>
+<!-- new customer email input -->			
 						<p id = "formP4">E M A I L *</p>	
 					</td>	
 				</tr>
@@ -101,30 +105,29 @@
 				</tr> 
 			<tr>
 				<td>
-<!-- second table heading-->		 			
+<!-- new customer password input -->		 			
 					<p id = "formP5"> C R E A T E &nbsp;&nbsp; P A S S W O R D </p>
 				</td>
 				</tr>
-			 <tr>
-<!-- pizza size input field -->		
+			 <tr>	
 				<td>
 					<input type = "password" name = "password1"><!-- 'size' changes length of input box-->
 				</td>
 			</tr>
 			<tr>
 				<td>
-<!-- second table heading-->		 			
+<!-- new customer verify password input -->	 			
 					<p id = "formP6"> V E R I F Y &nbsp;&nbsp; P A S S W O R D </p>
 				</td>
 				</tr>
 			 <tr>
-<!-- pizza size input field -->		
 				<td>
 					<input type = "password" name = "password2"><!-- 'size' changes length of input box-->
 				</td>
 			</tr>
 			<tr>
 				<td>
+<!-- new customer create account button -->
 					<input id = "submit2" type ="submit" name = "login" value ="CREATE ACCOUNT"> 
 				</td>
 			</tr>
@@ -133,6 +136,7 @@
 		</form>
 	</div>
 	<div>
+<!-- footer -->
 		<ul id="footerNav">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="Collection.html">Collection</a></li> <!--'&nbsp;' to create empty space-->

@@ -1,10 +1,21 @@
+
 /* AUTHOR @ AMY PERCIVAL */
-/* removes white margin around edge of background image */
+
+/*
+COLOR PALETTE
+https://coolors.co/FFFFFF-000004-011936-EDE0D4-766C7F
+#FFFFFF -  white
+#000004 - Black
+#011936 - Oxford Blue
+#EDE0D4 - Almond
+#766C7F - Old Lavander
+*/
+
 body{
   margin: 0 0 0 0;
 }
 
-/* style main header*/
+/******  main header ******/
 .header {
   text-align: center;
   color: black;
@@ -12,7 +23,7 @@ body{
   border-bottom: 1px solid black;
   font-size:180%;
 }
-
+ 
 #fullHeader{
   background-color: #EDE0D4;
   padding:1px;
@@ -21,6 +32,7 @@ body{
   width: 100%; /* Full width */
 }
 
+/*main header text*/
 #h2 {
   text-align: center;
   color: black;
@@ -46,7 +58,6 @@ body{
 /*LOGIN ICON*/
 #userIcon{
   width:1%;
-  /* padding-left: 8%; */
   position: absolute;
   z-index: 9999;
 }
@@ -54,13 +65,14 @@ body{
 /*BASKET ICON*/
 #basketIcon{
   width:1%;
-  /* padding-left: 18%; */
   position: absolute;
   z-index: 9999;
   margin-right: 2.5%;
 }
 
-/* navigation menu */
+
+/******* navigation menu ********/
+
 #nav {
 width: 80%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
@@ -92,7 +104,7 @@ color: #736779;
 }
 
 
-/* FOOTER */
+/****** FOOTER *******/
 
  #footerNav {
   float:left;
@@ -104,22 +116,26 @@ color: #736779;
   margin-bottom: 0;
   margin-top:1%;
 }
+
  #footerNav li {
   float: left; /*floats list items left*/
   clear:right;
   padding-left: 8%;
   font-size:80%;
 }
+
   #footerNav li a {
   text-decoration: none; /*removes the underline from the anchor*/ 
   font-weight: bold;
   color: white;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
   #footerNav li a:hover {
   color: #EDE0D4;
 }
 
+/*copy right text*/
   #copy{
   text-align: center;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -130,6 +146,7 @@ color: #736779;
   color:white;
 }
 
+/*walking sheep gif*/
  #sheep{
     margin-left: 45%;
     width: 7%;

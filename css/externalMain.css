@@ -1,12 +1,22 @@
+
 /* AUTHOR @ AMY PERCIVAL*/
+
+/*
+COLOR PALETTE
+https://coolors.co/FFFFFF-000004-011936-EDE0D4-766C7F
+#FFFFFF -  white
+#000004 - Black
+#011936 - Oxford Blue
+#EDE0D4 - Almond
+#766C7F - Old Lavander
+*/
 
 body{
   margin: 0 0 0 0;
 
 }
-/* background image */
 
-/* style main header*/
+/***** main header text *******/
 .header {
 	text-align: center;
 	color: black;
@@ -15,11 +25,14 @@ body{
   font-size:180%;
 }
 
+/******** main header backgroud *******/
 #fullHeader{
   background-color: #EDE0D4;
   padding:1px;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
-
+/* main header title*/
 #h2 {
   text-align: center;
   color: black;
@@ -32,6 +45,7 @@ body{
   width: 30%;
   margin-left: 35.5%
 }
+
 /* Woollen Mill & Co. logo*/
 #logo{
   width:10%;
@@ -41,12 +55,14 @@ body{
   z-index: 9999;
 }
 
+/*login icon*/
 #userIcon{
   width:1.5%;
   position: absolute;
   z-index: 9999;
 }
 
+/*cart icon*/
 #basketIcon{
   width:1.5%;
   position: absolute;
@@ -54,7 +70,7 @@ body{
   z-index: 9999;
 }
 
-/* navigation menu */
+/****** navigation menu *******/
 #nav {
 width: 80%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
@@ -86,7 +102,7 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 color: #736779;
 }
 
-/* main form stylings */
+/******** contact form stylings ******/
 .contactForm{
   margin-top:1%;
   margin-left:33%;
@@ -97,7 +113,7 @@ color: #736779;
   padding: 0 0 0 0;
 }
 
-/* first header in form */
+/* headers in contact form */
 #formP1, #formP2, #formP3 {
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size:80%;
@@ -122,6 +138,7 @@ input[type=text], select, textarea{
     resize: vertical;
 }
 
+/*email input box style*/
 input[type=email]{
     width: 250%;
     padding: 10px;
@@ -140,6 +157,7 @@ input[type=email]{
 input[type=email]:focus {
     border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
 }
+
 input[type=text]:focus {
     border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
 }
@@ -166,6 +184,7 @@ input[type=submit]:hover {
   	background-color: #736779;
 }
 
+/************ footer nav ***********/
  #footerNav {
   float:left;
   width:97.2%; /*makes the menu width the same as the window width*/ 
@@ -176,6 +195,7 @@ input[type=submit]:hover {
   margin-bottom: 0;
   margin-top:1%;
 }
+
  #footerNav li {
   float: left; /*floats list items left*/
   clear:right;
@@ -188,10 +208,12 @@ input[type=submit]:hover {
   color: white;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+/* change colour on hover of nav menu options*/
   #footerNav li a:hover {
   color: #EDE0D4;
 }
-
+ /*copy right text*/
   #copy{
   text-align: center;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -201,11 +223,14 @@ input[type=submit]:hover {
   font-weight: bold;
   color:white;
 }
-
+ /*walking sheep gif in footer*/
  #sheep{
     margin-left: 45%;
     width: 7%;
 }
+
+ /********** for "collection" page only *********/
+
 
 #hat{
   width: 28%;
@@ -215,6 +240,7 @@ input[type=submit]:hover {
   float:left;
   padding-bottom:4%;
 }
+
 #hat:hover {
   opacity: 80%;
 }
@@ -225,6 +251,7 @@ input[type=submit]:hover {
   padding-top: 4%;
   float:left;
 }
+
 #scarf:hover {
   opacity: 80%;
 }
@@ -235,84 +262,11 @@ input[type=submit]:hover {
   padding-top: 4%;
   float:left;
 }
+
 #gloves:hover {
   opacity: 80%;
 }
 
-/*HATS PAGE GALLARY*/
-
-/* The grid: Four equal columns that floats next to each other */
-/*.column {
-  float: left;
-  width: 18%;
-  margin:1%;
-  margin-top:3.5%;
-}
-
-/* Style the images inside the grid */
-/*.column img {
-  opacity: 0.8;
-  cursor: pointer;
-  width: 100%;
-}
-
-.column img:hover {
-  opacity: 1;
-}*/
-
-/* Clear floats after the columns */
-/*.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row{
-  background-color: white;
-}*/
-/*
- The expanding image container (positioning is needed to position the close button and the text) 
-.container {
-  position: relative;
-  display: none;
-  padding-left:1.7%;
-  background-color: white;
-}*/
-
-/* Expanding image text */
-/*#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: black;
-  font-size: 20px;
-}*/
-
-/* Closable button inside the image */
-/*.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}*/
-
-/*#pinkHat{
-  width: 90%;
-}
-#orangeHat{
-  width: 88%;
-}
-#greyHat{
-  width: 85%;
-}
-#greenHat{
-  width: 89%;
-}
-#whiteHat{
-  padding-left:4%;
-}*/
 
 
 
