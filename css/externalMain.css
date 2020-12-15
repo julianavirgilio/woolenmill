@@ -176,7 +176,7 @@ input[type=submit] {
   	cursor: pointer;
   	outline: none;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-    margin-left:150%;
+    margin-left:74%;
 }
 
 /* changes colour of submit box on hover*/
@@ -184,6 +184,10 @@ input[type=submit]:hover {
   	background-color: #736779;
 }
 
+  #searchBar{
+  padding-left: 27%;
+  margin-top:3.5%;
+}
 /************ footer nav ***********/
  #footerNav {
   float:left;
@@ -236,7 +240,7 @@ input[type=submit]:hover {
   width: 28%;
   padding:2.5%;
   padding-left: 4%;
-  padding-top: 4%;
+  padding-top: 2%;
   float:left;
   padding-bottom:4%;
 }
@@ -248,7 +252,7 @@ input[type=submit]:hover {
 #scarf{
   width: 24.8%;
   padding:2.5%;
-  padding-top: 4%;
+  padding-top: 2%;
   float:left;
 }
 
@@ -259,7 +263,7 @@ input[type=submit]:hover {
 #gloves{
   width: 29.4%;
   padding:2.5%;
-  padding-top: 4%;
+  padding-top: 2%;
   float:left;
 }
 
