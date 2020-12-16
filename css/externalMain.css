@@ -72,7 +72,7 @@ body{
 
 /****** navigation menu *******/
 #nav {
-width: 69%; /*makes the menu width the same as the window width*/ 
+width: 80%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
 padding-left: 13%;
 padding-bottom: 0;

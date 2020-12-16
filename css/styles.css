@@ -34,6 +34,7 @@ a:hover {
   /* width: 95%; */
   margin: 0 auto;
   padding: 60px 0;
+  padding-left: 3%;
 }
 .divider > section {
   border-bottom: 1px dashed #000004;
@@ -51,6 +52,7 @@ a:hover {
   background: #FFFFFF;
   padding-bottom: 15%;
   padding-top: 10%;
+  font-size: 110%
 }
 .products a {
   color: #011936;
@@ -81,8 +83,7 @@ a:hover {
   list-style: none;
   color: black;
   font-family: "Palatino Linotype", "Book Antiqua", serif;
-  font-size: 22px;
-  font-size:120%; /*smaller looks more spohpisticaed(?)*/
+  font-size:100%; 
   text-align: justify; /*justified text to it takes up and equal amount of the page */
 
 }
