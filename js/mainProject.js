@@ -125,7 +125,7 @@ function validateFormLogin()
   }
 
 
-// ****** SEARCH LIST TAKEN FROM W3SCHOOLS AND MODIFED *****
+// ****** SEARCH LIST CODE TAKEN FROM W3SCHOOLS AND MODIFED *****
 
 function myFunction() {
   // Declare variables
