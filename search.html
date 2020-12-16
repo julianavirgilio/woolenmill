@@ -2,15 +2,17 @@
 <!DOCTYPE html> 
 <html lang="en"> 
 	<head>	
-		<title>Collection</title>	
+		<title>Search</title>	
 		<meta charset="UTF-8">
 		<link rel="icon" href="images/logo.png" type="image/png">
 		<link href = "css/externalMain.css" rel = "stylesheet"> <!--link to external .css stylesheet-->
 		<script src="js/mainProject.js"></script> <!--link external JavaScript-->
 	</head>	
 		<body>
+			 <div id="page-container">
+   				<div id="content-wrap">
 <!-- woollen mill & co. logo-->
-		<div id = "fullHeader">
+				<div id = "fullHeader">
 			<div>
 				<a href="index.html"><img id = "logo" src = "images/logo.png" alt = "image of logo"></a>
 			</div>
@@ -27,13 +29,13 @@
 			</div>
 <!--header begins here-->
 			<div class = "header">
-				<p> B R O W S E &nbsp;&nbsp; O U R &nbsp;&nbsp;P R O D U C T S</p>
+				<p> S E A R C H</p>
 			</div>	
 			</div>
 			 <form>
 				 	<table id = "searchBar">
 				 		<div id = "searchDiv">
-				 			<label id = "search"> S E A R C H </label>
+				 			<label id = "searchHeader"> B R O W S E &nbsp;&nbsp; O U R &nbsp;&nbsp;C O L L E C T I O N</label>
 				 		</div>
 				 		<tr>
 				 			<td>
@@ -45,37 +47,37 @@
   			 	</form>
   			 	<div id = "first">
 					<ul id="productList">
-						<li><!-- <a href="glovedetails.html"> --><img src = "images/glove1.png" width = "200px;" id = "redGloves"><a href="#">Red Gloves</a></li>
-				 		<li><!-- <a href="glovedetails.html"> --><img src = "images/glove2.png" width = "200px;" id = "greyGloves"></a><a href="#">Grey Gloves</a></li>
-				  		<li><!-- <a href= "glovedetails.html"> --><img src = "images/glove4.png" width = "200px;" id = "purpleGloves"></a><a href="#">Purple Gloves</a></li>
-					 	<li><!-- <a href="glovedetails.html"> --><img src = "images/glove3.png" width = "200px;" id = "greenGloves"></a><a href="#">Green Gloves &euro;14.99</a></li>
-					  	<li><!-- <a href="glovedetails.html"> --><img src = "images/glove5.png" width = "200px;" id = "multiGloves"></a><a href="#">Multi-Coloured Gloves</a></li>
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat1.jpg" width = "200px;" id = "creamHat"></a><a href="#">Cream Hat</a></li>
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat2.jpg" width = "200px;" id = "greyHat"></a><a href="#">Grey Hat</a></li>
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat3.jpg" width = "200px;" id = "pinkHat"></a><a href="#">Pink Hat</a></li>
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat4.jpg" width = "200px;" id = "orangeHat"></a><a href="#">Orange Hat</a></li>
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat5.jpg" width = "200px;" id = "greenHat"></a><a href="#">Green Hat</a></li>
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat6.jpg" width = "200px;" id = "brownHat"></a><a href="#">Brown Hat</a></li>
-
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/scarf2.png" width = "200px;" id = "greenScarf"></a><a href="#">Green Scarf</a></li>
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/scarf3.png" width = "200px;" id = "pinkScarf"></a><a href="#">Pink Scarf</a></li>
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/scarf4.png" width = "200px;" id = "peachScarf"></a><a href="#">Peach Scarf</a></li>
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/scarf5.png" width = "200px;" id = "creamScarf"></a><a href="#">Cream Scarf</a></li>
-					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/scarf1.png" width = "200px;" id = "greyScarf"></a><a href="#">Grey Scarf</a></li>	
+						<li><!-- <a href="glovedetails.html"> --><img src = "images/glove1.png" width = "150px;" id = "redGloves"></a><a href="glovedetails.html">RED GLOVES&nbsp;&nbsp; &euro;14</a></li>
+				 		<li><!-- <a href="glovedetails.html"> --><img src = "images/glove2.png" width = "150px;" id = "greyGloves"></a><a href="glovedetails.html">GREY GLOVES&nbsp;&nbsp; &euro;19</a></li>
+				  		<li><!-- <a href= "glovedetails.html"> --><img src = "images/glove4.png" width = "150px;" id = "purpleGloves"></a><a href="glovedetails.html">PURPLE GLOVES&nbsp;&nbsp; &euro;19</a></li>
+					 	<li><!-- <a href="glovedetails.html"> --><img src = "images/glove3.png" width = "150px;" id = "greenGloves"></a><a href="glovedetails.html">GREEN GLOVES&nbsp;&nbsp; &euro;14</a></li>
+					  	<li><!-- <a href="glovedetails.html"> --><img src = "images/glove5.png" width = "150px;" id = "multiGloves"></a><a href="glovedetails.html">MULTI GLOVES&nbsp;&nbsp; &euro;17</a></li>
+					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat1.jpg" width = "150px;" id = "creamHat"></a><a href="hatdetails.html">CREAM HAT&nbsp;&nbsp; &euro;16</a></li>
+					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat2.jpg" width = "150px;" id = "greyHat"></a><a href="hatdetails.html">GREY HAT&nbsp;&nbsp; &euro;19</a></li>
+					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat3.jpg" width = "150px;" id = "pinkHat"></a><a href="hatdetails.html">PINK HAT&nbsp;&nbsp; &euro;14</a></li>
+					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat4.jpg" width = "150px;" id = "orangeHat"></a><a href="hatdetails.html">ORANGE HAT&nbsp;&nbsp; &euro;19</a></li>
+					  	<li><!-- <a href="hatdetails.html"> --><img src = "images/hat5.jpg" width = "150px;" id = "greenHat"></a><a href="hatdetails.html">GREEN HAT&nbsp;&nbsp; &euro;17</a></li>
+					  	<li><!-- <a href="scarfdetails.html"> --><img src = "images/scarf2.png" width = "150px;" id = "greenScarf"></a><a href="scarfdetails.html">GREEN SCARF&nbsp;&nbsp; &euro;19</a></li>
+					  	<li><!-- <a href="scarfdetails.html"> --><img src = "images/scarf3.png" width = "150px;" id = "pinkScarf"></a><a href="scarfdetails.html">PINK SCARF&nbsp;&nbsp; &euro;14</a></li>
+					  	<li><!-- <a href="scarfdetails.html"> --><img src = "images/scarf4.png" width = "150px;" id = "peachScarf"></a><a href="scarfdetails.html">PEACH SCARF&nbsp;&nbsp; &euro;19</a></li>
+					  	<li><!-- <a href="scarfdetails.html"> --><img src = "images/scarf5.png" width = "150px;" id = "creamScarf"></a><a href="scarfdetails.html">CREAM SCARF&nbsp;&nbsp; &euro;14</a></li>
+					  	<li><!-- <a href="scarfdetails.html"> --><img src = "images/scarf1.png" width = "150px;" id = "greyScarf"></a><a href="scarfdetails.html">GREY SCARF&nbsp;&nbsp; &euro;16</a></li>	
 					</ul>
 <!-- footer -->
-	<div>
-		<ul id="footerNav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="Collection.html">Collection</a></li> 
-			<li><a href="ourstory.html">Our Story</a></li>
-			<li><a href="Contact.html">Contact</a></li>
-			<li><a href="#">Size Guide</a></li>
-			<li><a href="#">Terms and Conditions</a></li>
-			<li><a href="#">FAQs</a></li>
-			<img id = "sheep" src = "images/gif/walkingsheep.gif" alt = "sheep gif">
-			<p id = "copy"><i>© 2020 Woollen Mill & Co. All Rights Reserved</i></p>
-		</ul>
-	</div>						
+				<div id = "footer">
+					<ul id="footerNav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Collection.html">Collection</a></li> 
+						<li><a href="ourstory.html">Our Story</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+						<li><a href="#">Size Guide</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+						<li><a href="#">FAQs</a></li>
+						<img id = "sheep" src = "images/gif/walkingsheep.gif" alt = "sheep gif">
+						<p id = "copy"><i>© 2020 Woollen Mill & Co. All Rights Reserved</i></p>
+					</ul>
+				</div>
+			</div>
+		</div>						
 </body>
 </html>

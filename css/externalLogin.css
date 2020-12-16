@@ -22,6 +22,7 @@ body{
   padding-top: 3%;
   border-bottom: 1px solid black;
   font-size:180%;
+  padding-bottom: .5%;
 }
 
  /******** main header background *******/
@@ -47,7 +48,7 @@ body{
 
 /* Woollen Mill & Co. logo*/
 #logo{
-  width:10%;
+  width:11%;
   margin-left: 4%;
   margin-top:auto;
   position: absolute;
@@ -72,7 +73,7 @@ body{
 #nav {
 width: 80%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
-padding-left: 15%;
+padding-left: 13%;
 padding-bottom: 0;
 }
 
@@ -206,6 +207,18 @@ input[type=password]:focus {
     border: 1px solid #c1bac4;
 }
 
+/*copyright text*/
+  #copy{
+  text-align: center;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin-top:3%;
+  margin-bottom:0;
+  font-size:80%;
+  font-weight: bold;
+  color:white;
+}
+
+
 /********** footer nav styles ***********/
  #footerNav {
   float:left;
@@ -234,17 +247,6 @@ input[type=password]:focus {
 
   #footerNav li a:hover {
   color: #EDE0D4;
-}
-
-/*copyright text*/
-  #copy{
-  text-align: center;
-  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-  margin-top:3%;
-  margin-bottom:0;
-  font-size:80%;
-  font-weight: bold;
-  color:white;
 }
 
 /*walking sheep gif in footer*/

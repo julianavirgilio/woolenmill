@@ -13,7 +13,15 @@ https://coolors.co/FFFFFF-000004-011936-EDE0D4-766C7F
 
 body{
   margin: 0 0 0 0;
+}
 
+#page-container {
+  position: relative;
+  min-height: 270vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
 }
 
 /***** main header text *******/
@@ -23,6 +31,7 @@ body{
   padding-top: 3%;
   border-bottom: 1px solid black;
   font-size:180%;
+  padding-bottom: .5%;
 }
 
 /******** main header backgroud *******/
@@ -32,6 +41,7 @@ body{
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
+
 /* main header title*/
 #h2 {
   text-align: center;
@@ -48,7 +58,7 @@ body{
 
 /* Woollen Mill & Co. logo*/
 #logo{
-  width:10%;
+  width:11%;
   margin-left: 4%;
   margin-top:auto;
   position: absolute;
@@ -183,52 +193,6 @@ input[type=submit]:hover {
 }
 
 
-/************ footer nav ***********/
-
- #footerNav {
-  float:left;
-  width:100%; /*makes the menu width the same as the window width*/ 
-  list-style: none; /*removes bullets from the list*/
-  padding-top: 2%;
-  padding-bottom: 2%;
-  background-color: #011936ff;
-  margin-bottom: 0;
-  margin-top:1%;
-}
-
- #footerNav li {
-  float: left; /*floats list items left*/
-  clear:right;
-  padding-left: 8%;
-  font-size:80%;
-}
-  #footerNav li a {
-  text-decoration: none; /*removes the underline from the anchor*/ 
-  font-weight: bold;
-  color: white;
-  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-
-/* change colour on hover of nav menu options*/
-  #footerNav li a:hover {
-  color: #EDE0D4;
-}
- /*copy right text*/
-  #copy{
-  text-align: center;
-  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-  margin-top:3%;
-  margin-bottom:0;
-  font-size:80%;
-  font-weight: bold;
-  color:white;
-}
- /*walking sheep gif in footer*/
- #sheep{
-    margin-left: 45%;
-    width: 7%;
-}
-
 
  /********** for "collection" *********/
 
@@ -270,47 +234,101 @@ input[type=submit]:hover {
 /******* search page *******/
 
 #productList {
-width: 80%; /*makes the menu width the same as the window width*/ 
+width: 100%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
 padding-bottom: 0;
 z-index: 9999;
-padding-left: 10%;
+padding-left: 9%;
 }
 
 #productList li {
 float: left; /*floats list items left*/
 clear:right;
-padding-left:11%;
 padding-top: 1%;
+padding:5%;
 }
 
 #productList li a {
 display: block; /*fills up the entire list item and makes the whole area clickable*/
 text-decoration: none; /*removes the underline from the anchor*/ 
 color: black;
+text-align: center;
 font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-
-#nav li a:hover {
-color: #736779;
+background-color: #EDE0D4;
 }
 
 #searchBar{
-padding-left: 23%;
+padding-left: 24%;
 margin-top:3.5%;
 }
 
-#search{
+#searchHeader{
 background-color: #9C91A1;
 font-style: italic;
 text-align:center;
-font-size:150%;
-margin-left:45.5%;
+font-size:110%;
+margin-left:39%;
 margin-bottom:3%;
 }
 
 #searchDiv{
   padding-top: 3%;
+}
+
+
+
+/************ footer nav ***********/
+
+#footer{
+  bottom: 0;
+  width: 100%;
+  height: 0rem;
+  position: absolute;
+}
+
+ #footerNav {
+  float:left;
+  width:100%; /*makes the menu width the same as the window width*/ 
+  list-style: none; /*removes bullets from the list*/
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #011936ff;
+  margin-bottom: 0;
+  margin-top:1%;
+}
+
+ #footerNav li {
+  float: left; /*floats list items left*/
+  clear:right;
+  padding-left: 8%;
+  font-size:80%;
+}
+  #footerNav li a {
+  text-decoration: none; /*removes the underline from the anchor*/ 
+  font-weight: bold;
+  color: white;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* change colour on hover of nav menu options*/
+  #footerNav li a:hover {
+  color: #EDE0D4;
+}
+
+ /*copy right text*/
+  #copy{
+  text-align: center;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin-top:3%;
+  margin-bottom:0;
+  font-size:80%;
+  font-weight: bold;
+  color:white;
+}
+ /*walking sheep gif in footer*/
+ #sheep{
+    margin-left: 45%;
+    width: 7%;
 }
 
 

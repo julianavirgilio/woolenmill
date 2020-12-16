@@ -91,7 +91,7 @@ a:hover {
 .tumble-img {
   float:left;
   display:inline; 
-  width: 15%;
+  width: 13%;
   list-style: none;
   size: 100px;
 
@@ -222,8 +222,12 @@ a:hover {
   background-color: #9C91A1;
   font-style: italic;
   font-size:150%;
-  margin-left:10%;
+  margin-left:5.5%;
+}
 
+#price{
+  color:grey;
+  font-size: 140%;
 }
 
 @media only screen and (max-width: 700px) {
