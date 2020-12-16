@@ -31,7 +31,7 @@ body{
   padding-top: 3%;
   border-bottom: 1px solid black;
   font-size:180%;
-  padding-bottom: .5%;
+  padding-bottom: .7%;
 }
 
 /******** main header backgroud *******/
@@ -67,18 +67,18 @@ body{
 
 /*login icon*/
 #userIcon{
-  width:1.5%;
+  width:1.52%;
   z-index: 9999;
   position: absolute;
 }
 
 /*cart icon*/
-#basketIcon{
+/*#basketIcon{
   width:1.5%;
   z-index: 9999;
   position: absolute;
   padding-left:5%;
-}
+}*/
 
 /****** navigation menu *******/
 #nav {
@@ -93,8 +93,8 @@ z-index: 9999;
 float: left; /*floats list items left*/
 clear:right;
 padding-left:9.3%;
-font-size:80%;
-padding-top: 1%;
+font-size:75%;
+padding-top: 1.05%;
 }
 
 #nav li a {
