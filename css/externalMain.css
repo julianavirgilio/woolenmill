@@ -17,7 +17,7 @@ body{
 
 #page-container {
   position: relative;
-  min-height: 270vh;
+  min-height: 100vh;
 }
 
 #content-wrap {
@@ -31,7 +31,7 @@ body{
   padding-top: 3%;
   border-bottom: 1px solid black;
   font-size:180%;
-  padding-bottom: .5%;
+  padding-bottom: .7%;
 }
 
 /******** main header backgroud *******/
@@ -67,18 +67,18 @@ body{
 
 /*login icon*/
 #userIcon{
-  width:1.5%;
+  width:1.52%;
   z-index: 9999;
   position: absolute;
 }
 
 /*cart icon*/
-#basketIcon{
+/*#basketIcon{
   width:1.5%;
   z-index: 9999;
   position: absolute;
   padding-left:5%;
-}
+}*/
 
 /****** navigation menu *******/
 #nav {
@@ -93,8 +93,8 @@ z-index: 9999;
 float: left; /*floats list items left*/
 clear:right;
 padding-left:9.3%;
-font-size:80%;
-padding-top: 1%;
+font-size:75%;
+padding-top: 1.05%;
 }
 
 #nav li a {
@@ -249,7 +249,7 @@ padding:5%;
 }
 
 #productList li a {
-display: block; /*fills up the entire list item and makes the whole area clickable*/
+/*display: block;*/ /*fills up the entire list item and makes the whole area clickable*/
 text-decoration: none; /*removes the underline from the anchor*/ 
 color: black;
 text-align: center;
@@ -257,6 +257,16 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 background-color: #EDE0D4;
 }
 
+.product-grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding:0 0 0 0;
+}
+
+.grid-item{
+  text-align: left
+  padding-right: 50%;
+}
 #searchBar{
 padding-left: 24%;
 margin-top:3.5%;
