@@ -1,101 +1,98 @@
 <!--author @ AMY PERCIVAL-->
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<title>Contact Us</title>
-	<meta charset="UTF-8">
-	<link rel="icon" href="images/logo.png" type="image/png">
-	<link href="css/externalMain.css" rel="stylesheet">
-	<!--link to external .css stylesheet-->
-	<script src="js/mainProject.js"></script>
-	<!--link external JavaScript-->
-</head>
-
-<body>
-	<!--logo-->
-	<div id="fullHeader">
-		<div>
-			<a href="index.html"><img id="logo" src="images/logo.png" alt="image of logo"></a>
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head>	
+		<title>Contact Us</title>	
+		<meta charset="UTF-8">
+		<link rel="icon" href="images/logo.png" type="image/png">
+		<link href = "css/externalMain.css" rel = "stylesheet"> <!--link to external .css stylesheet-->
+		<script src="js/mainProject.js"></script> <!--link external JavaScript-->
+	</head>	
+		<body>
+<!--logo-->
+<div id = "fullHeader">
+			<div>
+				<a href="index.html"><img id = "logo" src = "images/logo.png" alt = "image of logo"></a>
+			</div>
+<!-- nav menu -->
+			<div>
+				<ul id="nav">
+					<li><a href="index.html">H O M E</a></li>
+					<div class="dropdown">
+						<li><a href="Collection.html">C O L L E C T I O N </a></li> 
+					 		<div class="dropdown-content">
+      							<a href="hatedetails.html">H A T S</a>
+      							<a href="scrafdetails.html">S C A R V E S</a>
+      							<a href="glovedetails.html">G L O V E S</a>
+   						 	</div>
+   						</div>
+					<li><a href="ourstory.html">O U R &nbsp;&nbsp; S T O R Y</a></li>
+					<li><a href="Contact.html">C O N T A C T</a></li>
+					<li><a href="search.html">S E A R C H</a></li>
+					<li><a href="login.html"><img id = "userIcon" src = "images/user.png" alt = "user icon"></a>
+				</ul>
+			</div>
+<!--header begins here-->
+			<div class = "header">
+					<p> G E T &nbsp;&nbsp; I N &nbsp;&nbsp; T O U C H </p>
+			</div>
 		</div>
-		<!-- nav menu -->
-		<div>
-			<ul id="nav">
-				<li><a href="index.html">H O M E</a></li>
-				<li><a href="Collection.html">C O L L E C T I O N </a></li>
-				<!--'&nbsp;' to create empty space-->
-				<li><a href="ourstory.html">O U R &nbsp;&nbsp; S T O R Y</a></li>
-				<li><a href="Contact.html">C O N T A C T</a></li>
-				<li><a href="search.html">S E A R C H</a></li>
-				<li><a href="login.html"><img id="userIcon" src="images/user.png" alt="user icon"></a>
-			</ul>
-		</div>
-		<!--header begins here-->
-		<div class="header">
-			<p> G E T &nbsp;&nbsp; I N &nbsp;&nbsp; T O U C H </p>
-		</div>
-	</div>
-	<div id="h2">
-		<label><i> W E &nbsp;&nbsp; L O V E &nbsp;&nbsp; T O &nbsp;&nbsp; H E A R &nbsp;&nbsp; F R O M &nbsp;&nbsp; Y O
-				U...</i></label>
-	</div>
-
-	<!-- contact form begins here-->
-	<div class="contactForm">
-		<form name="contactForm" id="contactForm" method="post" action=" mailto:x20163266@student.ncirl.ie"
-			onsubmit="return !! validateForm()">
-			<!-- call validate function in 'form' tag when user clicks submit button-->
-			<table>
+			<div id = "h2">
+				<label><i> W E &nbsp;&nbsp; L O V E &nbsp;&nbsp; T O &nbsp;&nbsp; H E A R &nbsp;&nbsp; F R O M &nbsp;&nbsp; Y O U...</i></label>
+			</div>
+		
+<!-- contact form begins here-->
+			<div class = "contactForm">
+				<form name="contactForm" id = "contactForm" method="post" action=" mailto:x20163266@student.ncirl.ie" onsubmit="return !! validateForm()"> <!-- call validate function in 'form' tag when user clicks submit button-->
+			<table> 
 				<tr>
-					<!--first table heading-->
-					<td>
-						<p id="formP1">F U L L &nbsp;&nbsp; N A M E *</p>
+<!--first table heading-->	
+					<td>				
+						<p id = "formP1">F U L L &nbsp;&nbsp; N A M E *</p>	
 					</td>
 				</tr>
-				<tr>
-					<!--name input field-->
-					<td>
-						<input type="text" name="contactName" size="20" placeholder="Your full name"><br />
-					</td>
+				<tr> 
+<!--name input field-->		
+						<td>									
+							<input type ="text" name ="contactName" size ="20" placeholder="Your full name"><br/>
+						</td> 
+					</tr> 
+<!-- email input field -->
+					<tr>
+					<td>				
+						<p id = "formP2">E M A I L *</p>	
+					</td>	
+					</tr>
+					<tr>			
+						<td>
+							<input type = "email" name = "contactEmail" size = "20" placeholder="E.g. example@example.com"><br/><!-- 'size' changes length of input box-->
+						</td>
+				</tr> 
+			<tr>
+				<td>
+<!-- message input heading-->		 			
+					<p id = "formP3"> Y O U R &nbsp;&nbsp; M E S S A G E *</p>
+				</td>
 				</tr>
-				<!-- email input field -->
-				<tr>
-					<td>
-						<p id="formP2">E M A I L *</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<input type="email" name="contactEmail" size="20" placeholder="E.g. example@example.com"><br />
-						<!-- 'size' changes length of input box-->
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<!-- message input heading-->
-						<p id="formP3"> Y O U R &nbsp;&nbsp; M E S S A G E *</p>
-					</td>
-				</tr>
-				<tr>
-					<!-- text area for contact form -->
-					<td>
-						<textarea id="text" name="contactMsg" style="height:150px"
-							placeholder="Write something..."></textarea><!-- 'size' changes length of input box-->
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<input id="submit" type="submit" name="submit" value="CONTACT US">
-					</td>
-				</tr>
-			</table>
-			<!--form ends-->
+			 <tr>
+<!-- text area for contact form -->		
+				<td>
+					<textarea id = "text" name = "contactMsg" style="height:150px" placeholder="Write something..."></textarea><!-- 'size' changes length of input box-->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input id = "submit" type ="submit" name = "submit" value ="CONTACT US"> 
+				</td>
+			</tr>
+		</table>
+<!--form ends-->			
 		</form>
 	</div>
-	<!--footer-->
+<!--footer-->
 	<footer>
-		<div>
-			<ul id="footerNav">
+		<div id="footerNav">
+			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="Collection.html">Collection</a></li>
 				<li><a href="ourstory.html">Our Story</a></li>
@@ -103,11 +100,10 @@
 				<li><a href="#">Size Guide</a></li>
 				<li><a href="#">Terms and Conditions</a></li>
 				<li><a href="#">FAQs</a></li>
-				<img id="sheep" src="images/gif/walkingsheep.gif" alt="sheep gif">
-				<p id="copy"><i>© 2020 Woollen Mill & Co. All Rights Reserved</i></p>
 			</ul>
-		</div>
-	</footer>
+				<img id = "sheep" src = "images/gif/walkingsheep.gif" alt = "sheep gif">
+			<p id = "copy"><i>© 2020 Woollen Mill & Co. All Rights Reserved</i></p>
+		</div>	
+	</footer>					
 </body>
-
 </html>

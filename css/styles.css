@@ -221,14 +221,10 @@ a:hover {
 #h9, #h10, #h11{
   background-color: #9C91A1;
   font-style: italic;
-  font-size:150%;
+  font-size:120%;
   margin-left:5.5%;
 }
 
-#price{
-  color:grey;
-  font-size: 140%;
-}
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -242,3 +238,4 @@ a:hover {
     width: 100%;
   }
 }
+

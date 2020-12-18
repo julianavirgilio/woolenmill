@@ -12,7 +12,7 @@
     <link href="css/headerFooter.css" rel="stylesheet">
     <!--link to external .css stylesheet made by Amy-->
   </head>
-
+ 
 <body>
   <!-- ***************  HEADER   **************** -->
   <header>
@@ -25,7 +25,14 @@
       <div>
         <ul id="nav">
           <li><a href="index.html">H O M E</a></li>
-          <li><a href="Collection.html">C O L L E C T I O N </a></li> <!--'&nbsp;' to create empty space-->
+          <div class="dropdown">
+            <li><a href="Collection.html">C O L L E C T I O N </a></li> 
+              <div class="dropdown-content">
+                    <a href="hatedetails.html">H A T S</a>
+                    <a href="scrafdetails.html">S C A R V E S</a>
+                    <a href="glovedetails.html">G L O V E S</a>
+                </div>
+              </div>
           <li><a href="ourstory.html">O U R &nbsp;&nbsp; S T O R Y</a></li>
           <li><a href="Contact.html">C O N T A C T</a></li>
           <li><a href="search.html">S E A R C H</a></li>
@@ -103,8 +110,8 @@
   </main>
   <!-- ************  FOOTER  ************ -->
   <footer>
-    <div>
-      <ul id="footerNav">
+    <div id="footerNav">
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="Collection.html">Collection</a></li>
         <li><a href="ourstory.html">Our Story</a></li>
@@ -112,9 +119,9 @@
         <li><a href="#">Size Guide</a></li>
         <li><a href="#">Terms and Conditions</a></li>
         <li><a href="#">FAQs</a></li>
-        <img id="sheep" src="images/gif/walkingsheep.gif" alt="sheep gif">
-        <p id="copy"><i>© 2020 Woollen Mill & Co. All Rights Reserved</i></p>
       </ul>
+        <img id = "sheep" src = "images/gif/walkingsheep.gif" alt = "sheep gif">
+      <p id = "copy"><i>© 2020 Woollen Mill & Co. All Rights Reserved</i></p>
     </div>
   </footer>
   <script>
