@@ -1,0 +1,339 @@
+
+/* AUTHOR @ AMY PERCIVAL*/
+
+/*
+COLOR PALETTE
+https://coolors.co/FFFFFF-000004-011936-EDE0D4-766C7F
+#FFFFFF -  white
+#000004 - Black
+#011936 - Oxford Blue
+#EDE0D4 - Almond
+#766C7F - Old Lavander
+*/
+
+body{
+  margin: 0 0 0 0;
+}
+
+#page-container {
+  position: relative;
+  min-height: 250vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+/***** main header text *******/
+.header {
+	text-align: center;
+	color: black;
+  padding-top: 3%;
+  border-bottom: 1px solid black;
+  font-size:180%;
+  padding-bottom: .7%;
+}
+
+/******** main header backgroud *******/
+#fullHeader{
+  background-color: #EDE0D4;
+  padding:1px;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* main header title*/
+#h2 {
+  text-align: center;
+  color: black;
+  font-size:100%;
+  padding-top:10px;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  background-color: #9C91A1;
+  margin-top:2%;
+  width: 30%;
+  margin-left: 35.5%
+}
+
+/* Woollen Mill & Co. logo*/
+#logo{
+  width:11%;
+  margin-left: 4%;
+  margin-top:auto;
+  position: absolute;
+  z-index: 9999;
+}
+
+/*login icon*/
+#userIcon{
+  width:1.52%;
+  z-index: 9999;
+  position: absolute;
+}
+
+/*cart icon*/
+/*#basketIcon{
+  width:1.5%;
+  z-index: 9999;
+  position: absolute;
+  padding-left:5%;
+}*/
+
+/****** navigation menu *******/
+#nav {
+width: 80%; /*makes the menu width the same as the window width*/ 
+list-style: none; /*removes bullets from the list*/
+padding-left: 13%;
+padding-bottom: 0;
+z-index: 9999;
+}
+
+#nav li {
+float: left; /*floats list items left*/
+clear:right;
+padding-left:9.3%;
+font-size:75%;
+padding-top: 1.05%;
+}
+
+#nav li a {
+/*display: block;*/ /*fills up the entire list item and makes the whole area clickable*/
+text-decoration: none; /*removes the underline from the anchor*/ 
+font-weight: bold;
+color: black;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#nav li a:hover {
+color: #736779;
+}
+
+/******** contact form stylings ******/
+.contactForm{
+  margin-top:1%;
+  margin-left:33%;
+  margin-right:30%;
+  margin-bottom:1%;
+	font-family: "Courier New", Courier, monospace;
+  display:inline-block;
+  background: rgba(1,1,1,0);/* allows change in opacity without affecting text opacity*/
+  padding: 0 0 0 0;
+}
+
+/* headers in contact form */
+#formP1, #formP2, #formP3 {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size:80%;
+  font-weight: bold;
+  color:black;
+  margin-left: 1%;
+}
+
+/* form stylings for input of type text boxes*/
+input[type=text], select, textarea{
+  	width: 250%;
+  	padding: 10px;
+  	display: inline-block;
+  	border-radius: 0px;
+  	box-sizing: border-box;
+  	border: 1px solid black;
+  	transition: 0.5s;
+  	outline: none; /*removes deault 'blue' outline when field is selected*/
+    background-color:rgba(0, 0, 0, 0);/* allows change in opacity without affected text */
+    color:black;
+    font-family: "Courier New", Courier, monospace;
+    resize: vertical;
+}
+
+/*email input box style*/
+input[type=email]{
+    width: 250%;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    transition: 0.5s;
+    outline: none; /*removes deault 'blue' outline when field is selected*/
+    background-color:rgba(0, 0, 0, 0);/* allows change in opacity without affected text */
+    color:black;
+    font-family: "Courier New", Courier, monospace;
+    resize: vertical;
+}
+
+input[type=email]:focus {
+    border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
+}
+
+input[type=text]:focus {
+    border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
+}
+
+textarea:focus {
+    border: 1px solid #c1bac4; /*gives colour transition when user selects field*/
+}
+
+/* submit box styling */
+input[type=submit] {
+  	width: 100%;
+  	background-color: #EDE0D4;
+  	padding: 4%;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	outline: none;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-left:74%;
+}
+
+/* changes colour of submit box on hover*/
+input[type=submit]:hover {
+  	background-color: #736779;
+}
+
+
+
+ /********** for "collection" *********/
+
+#hat{
+  width: 28%;
+  padding:2.5%;
+  padding-left: 4%;
+  padding-top: 7%;
+  float:left;
+  padding-bottom:7%;
+}
+
+#hat:hover {
+  opacity: 80%;
+}
+
+#scarf{
+  width: 24.8%;
+  padding:2.5%;
+  padding-top: 7%;
+  float:left;
+}
+
+#scarf:hover {
+  opacity: 80%;
+}
+
+#gloves{
+  width: 29.4%;
+  padding:2.5%;
+  padding-top: 7%;
+  float:left;
+}
+
+#gloves:hover {
+  opacity: 80%;
+}
+
+/******* search page *******/
+
+#productList {
+width: 100%; /*makes the menu width the same as the window width*/ 
+list-style: none; /*removes bullets from the list*/
+padding-bottom: 0;
+z-index: 9999;
+padding-left: 9%;
+}
+
+#productList li {
+float: left; /*floats list items left*/
+clear:right;
+padding-top: 1%;
+padding:5%;
+}
+
+#productList li a {
+display: block; /*fills up the entire list item and makes the whole area clickable*/
+text-decoration: none; /*removes the underline from the anchor*/ 
+color: black;
+text-align: center;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+background-color: #EDE0D4;
+}
+
+#searchBar{
+padding-left: 24%;
+margin-top:3.5%;
+}
+
+#searchHeader{
+background-color: #9C91A1;
+font-style: italic;
+text-align:center;
+font-size:110%;
+margin-left:39%;
+margin-bottom:3%;
+}
+
+#searchDiv{
+  padding-top: 3%;
+}
+
+
+
+/************ footer nav ***********/
+
+#footer{
+  bottom: 0;
+  width: 100%;
+  height: 0rem;
+  position: absolute;
+}
+
+ #footerNav {
+  float:left;
+  width:100%; /*makes the menu width the same as the window width*/ 
+  list-style: none; /*removes bullets from the list*/
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #011936ff;
+  margin-bottom: 0;
+  margin-top:1%;
+}
+
+ #footerNav li {
+  float: left; /*floats list items left*/
+  clear:right;
+  padding-left: 8%;
+  font-size:80%;
+}
+  #footerNav li a {
+  text-decoration: none; /*removes the underline from the anchor*/ 
+  font-weight: bold;
+  color: white;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* change colour on hover of nav menu options*/
+  #footerNav li a:hover {
+  color: #EDE0D4;
+}
+
+ /*copy right text*/
+  #copy{
+  text-align: center;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin-top:3%;
+  margin-bottom:0;
+  font-size:80%;
+  font-weight: bold;
+  color:white;
+}
+ /*walking sheep gif in footer*/
+ #sheep{
+    margin-left: 45%;
+    width: 7%;
+}
+
+
+
+
+
+
+
