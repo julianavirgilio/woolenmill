@@ -55,11 +55,18 @@ body{
   z-index: 9999;
 }
 
+#logo:hover{
+opacity:60%;
+}
+
 /*login icon*/
 #userIcon{
   width:1.52%;
   position: absolute;
   z-index: 9999;
+}
+#userIcon:hover {
+opacity:50%;
 }
 
 /*cart icon*/
@@ -97,6 +104,37 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 /*colour change on hover of nav menu*/
 #nav li a:hover {
 color: #736779;
+text-decoration: underline;
+}
+
+ /*DROPDOWN NAV*/
+ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #EDE0D4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top:2%;
+  margin-left:18%;
 }
 
 /*********** login form style ************/
@@ -248,6 +286,7 @@ input[type=password]:focus {
 
   #footerNav li a:hover {
   color: #EDE0D4;
+  text-decoration: underline;
 }
 
 /*walking sheep gif in footer*/

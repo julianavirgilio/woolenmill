@@ -61,11 +61,19 @@ body{
   z-index: 9999;
 }
 
+#logo:hover{
+opacity:60%;
+}
+
 /*login icon*/
 #userIcon{
   width:1.52%;
   z-index: 9999;
   position: absolute;
+}
+
+#userIcon:hover {
+opacity:50%;
 }
 
 /*cart icon*/
@@ -104,6 +112,37 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 #nav li a:hover {
 color: #736779;
+text-decoration: underline;
+}
+
+ /*DROPDOWN NAV*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #EDE0D4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top:2%;
+  margin-left:18%;
 }
 
 /******** contact form stylings ******/
@@ -198,35 +237,38 @@ input[type=submit]:hover {
   width: 28%;
   padding:2.5%;
   padding-left: 4%;
-  padding-top: 7%;
+  margin-top: 4%;
   float:left;
-  padding-bottom:7%;
+  margin-bottom:7%;
 }
 
 #hat:hover {
   opacity: 80%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 #scarf{
   width: 24.8%;
   padding:2.5%;
-  padding-top: 7%;
+  margin-top: 4%;
   float:left;
 }
 
 #scarf:hover {
   opacity: 80%;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 #gloves{
   width: 29.4%;
   padding:2.5%;
-  padding-top: 7%;
+  margin-top: 4%;
   float:left;
 }
 
 #gloves:hover {
   opacity: 80%;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 /******* search page *******/
@@ -242,9 +284,13 @@ padding-left:19.5%;
 #productList li {
 float: left; /*floats list items left*/
 clear:right;
-padding-top: 1%;
+padding-top: 5%;
 padding-left:10%;
 padding-left:10%;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-style: italic;
+font-variant: small-caps;
+text-align: center;
 }
 
 #redGloves, #greyGloves, #purpleGloves, #greenGloves, #multiGloves, #creamHat, 
@@ -255,10 +301,11 @@ padding-left:10%;
 #productList li a {
 display: block; /*fills up the entire list item and makes the whole area clickable*/
 text-decoration: none; /*removes the underline from the anchor*/ 
-color: black;
 text-align: center;
-font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-background-color: #EDE0D4;
+}
+
+#productList li a:hover{
+opacity:70%;
 }
 
 #searchBar{
@@ -312,6 +359,7 @@ margin-top: 3%;
 /* change colour on hover of nav menu options*/
   #footerNav li a:hover {
   color: #EDE0D4;
+  text-decoration: underline;
 }
 
  /*copy right text*/
