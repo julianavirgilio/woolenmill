@@ -15,28 +15,29 @@
 
 <body>
   <!-- ***************  HEADER   **************** -->
-  
-    <!-- woollen mill & co. logo-->
-    <div id = "fullHeader">
-      <div>
-        <a href="index.html"><img id = "logo" src = "images/logo.png" alt = "image of logo"></a>
-      </div>
-    <!-- nav menu -->
-      <div>
-        <ul id="nav">
-          <li><a href="index.html">H O M E</a></li>
-          <li><a href="Collection.html">C O L L E C T I O N </a></li> <!--'&nbsp;' to create empty space-->
-          <li><a href="ourstory.html">O U R &nbsp;&nbsp; S T O R Y</a></li>
-          <li><a href="Contact.html">C O N T A C T</a></li>
-          <li><a href="search.html">S E A R C H</a></li>
-          <li><a href="login.html"><img id = "userIcon" src = "images/user.png" alt = "user icon"></a>
-        </ul>
-      </div>
-      <!--header begins here-->
-      <div class="header">
-        <p> W O O L L E N &nbsp;&nbsp;M I L L &nbsp;&nbsp; & &nbsp;&nbsp; C o. </p>
-      </div>
+
+  <!-- woollen mill & co. logo-->
+  <div id="fullHeader">
+    <div>
+      <a href="index.html"><img id="logo" src="images/logo.png" alt="image of logo"></a>
     </div>
+    <!-- nav menu -->
+    <div>
+      <ul id="nav">
+        <li><a href="index.html">H O M E</a></li>
+        <li><a href="Collection.html">C O L L E C T I O N </a></li>
+        <!--'&nbsp;' to create empty space-->
+        <li><a href="ourstory.html">O U R &nbsp;&nbsp; S T O R Y</a></li>
+        <li><a href="Contact.html">C O N T A C T</a></li>
+        <li><a href="search.html">S E A R C H</a></li>
+        <li><a href="login.html"><img id="userIcon" src="images/user.png" alt="user icon"></a>
+      </ul>
+    </div>
+    <!--header begins here-->
+    <div class="header">
+      <p> W O O L L E N &nbsp;&nbsp;M I L L &nbsp;&nbsp; & &nbsp;&nbsp; C o. </p>
+    </div>
+  </div>
 
   <main>
     <!-- ************ MAIN  ************** -->
@@ -46,21 +47,21 @@
       <div class="mySlides">
         <img src="images/farm2.png" style="width:100%">
       </div>
-    
+
       <div class="mySlides">
         <img src="images/slide1.png" style="width:100%">
       </div>
-    
+
       <div class="mySlides">
         <img src="images/slide2.png" style="width:100%">
       </div>
-    
+
       <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
-    
+
     <!-- The dots/circles -->
     <div style="text-align:center">
       <span class="dot" onclick="currentSlide(1)"></span>
@@ -76,11 +77,12 @@
               And of course the environmental damage is increasing as the industry grows.</br></br>
               In most of the countries in which garments are produced, untreated toxic wastewaters from textiles
               factories are dumped directly into the rivers.
-              For these reasons, we use only organic fibres and natural fibres require no chemicals during production.</br></br>
+              For these reasons, we use only organic fibres and natural fibres require no chemicals during
+              production.</br></br>
               Wool’s natural properties not only mean that products perform well during extended use,
               but items are also easy to look after; reducing their impact on the environment and extending their useful
               lifespan.</br></br>
-              <i id = "h6">Browse our collection...</i> 
+              <i id="h6">Browse our collection...</i>
             </p>
           </li>
         </ul>
@@ -100,14 +102,16 @@
             <p> Our sheep thrive in the beautiful (and wet!) Irish climate. They were made for these conditions.
               However, in order to protect our sheep from stress and to help ensure that they have the best life
               possible, our farmers provide adequate shade and shelter.</br></br>
-              Raised on free-range farms, our sheep forage as they please. Sheep which recieve proper nutrition are better able
+              Raised on free-range farms, our sheep forage as they please. Sheep which recieve proper nutrition are
+              better able
               to cope with the often tough weather Ireland is known for.</br></br>
               Our sheep always have access to clean water and proper nutrition and
               our farmers regularly monitor their flock, prevent disease and illness, and rapidly diagnose any health
               issues—essential in minimising stress and discomfort.</br></br>
 
-              <i id ="h7">Our farmers pride themselves on their knowlegdge which has been passed down over several generations of sheep farmers.</i>
-      
+              <i id="h7">Our farmers pride themselves on their knowlegdge which has been passed down over several
+                generations of sheep farmers.</i>
+
             </p>
           </li>
         </ul>
@@ -121,8 +125,9 @@
             <p> The fibres we process here at Woollen Mill & Co. are uniform in diameter, which makes the wool strong.
               This means that we provide consistent, high quality, high performing fibre year on year, season after
               season. </br>
-              <label id = "h8"><i>...Simple as that...</i></label></br></br>
-              These natural advantages are passed onto you, through our products, that will keep you cosy and comfortable and maintaining their durability with whatever life passes your way.
+              <label id="h8"><i>...Simple as that...</i></label></br></br>
+              These natural advantages are passed onto you, through our products, that will keep you cosy and
+              comfortable and maintaining their durability with whatever life passes your way.
             </p>
           </li>
         </ul>
@@ -167,17 +172,18 @@
       var i;
       var slides = document.getElementsByClassName("mySlides");
       var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
       for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
+        slides[i].style.display = "none";
       }
       for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-    } 
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+    
   </script>
 
 </body>
