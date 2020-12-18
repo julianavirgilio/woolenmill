@@ -81,6 +81,7 @@ body{
 }*/
 
 /****** navigation menu *******/
+
 #nav {
 width: 80%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
@@ -110,6 +111,7 @@ color: #736779;
 }
 
 /******** contact form stylings ******/
+
 .contactForm{
   margin-top:1%;
   margin-left:33%;
@@ -194,7 +196,7 @@ input[type=submit]:hover {
 
 
 
- /********** for "collection" *********/
+ /********** for "collection" page *********/
 
 #hat{
   width: 28%;
@@ -238,7 +240,7 @@ width: 100%; /*makes the menu width the same as the window width*/
 list-style: none; /*removes bullets from the list*/
 padding-bottom: 0;
 z-index: 9999;
-padding-left: 9%;
+/*padding-left: 15%;*/
 }
 
 #productList li {
@@ -246,6 +248,11 @@ float: left; /*floats list items left*/
 clear:right;
 padding-top: 1%;
 padding:5%;
+}
+
+#redGloves, #greyGloves, #purpleGloves, #greenGloves, #multiGloves, #creamHat, 
+#greyHat, #pinkHat, #orangeHat, #greenHat, #greenScarf, #pinkScarf, #peachScarf, #creamScarf, #greyScarf{
+  width:200px;
 }
 
 #productList li a {
@@ -268,13 +275,9 @@ font-style: italic;
 text-align:center;
 font-size:110%;
 margin-left:39%;
-margin-bottom:3%;
+margin-right:39%;
+margin-top: 3%;
 }
-
-#searchDiv{
-  padding-top: 3%;
-}
-
 
 
 /************ footer nav ***********/
