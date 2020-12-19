@@ -204,7 +204,11 @@ a:hover {
   background-color: #9C91A1;
   font-style: italic;
   text-align:left;
-  font-size:100%;
+  }
+
+  #h6 a{
+  text-decoration: none;
+  color:black;
   }
 
   #h8{

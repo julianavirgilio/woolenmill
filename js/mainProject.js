@@ -40,7 +40,7 @@ function validateForm()
   	var all=document.forms["contactForm"]["contactMsg" && "contactEmail" && "contactName"].value;
 	if (all != null || all!="") //if message is not null or blank
 	{
- 	alert("Thanks for getting in touch");
+ 	jAlert("We aim to respond to messages within 5 working days.");
   	return true;
   	}
   }
@@ -69,7 +69,7 @@ function validateFormLogin()
   	var all=document.forms["loginForm"]["contactEmail1" && "password"].value;
 	if (all != null || all!="") //if all input is not null or blank
 	{
- 	alert("Successful login");
+ 	window.location.href="http://www.google.com";
   	return true;
   	}
   }
