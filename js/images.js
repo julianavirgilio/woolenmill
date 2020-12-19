@@ -31,6 +31,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 } 
 
+
+
 // Product details pages function
     function imgFunction(imgs) {
         var expandImg = document.getElementById("expandedImg");
