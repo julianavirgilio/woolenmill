@@ -2,71 +2,85 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Meta data set the view on all screens at a 1×1 aspect ratio -->
-		<meta name="HandheldFriendly" content="true">
-    <link rel="icon" href="images/logo.png" type="image/png">
-    <link rel="stylesheet" href="css/styles.css"><!--link to external .css stylesheet made by Juliana-->
-    <link href="css/headerFooter.css" rel="stylesheet"><!--link to external .css stylesheet made by Amy-->
-    <script src="js/images.js"></script> <!--link external JavaScript-->
-    <title>Hats</title>
-  </head>
- 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Meta data set the view on all screens at a 1×1 aspect ratio -->
+  <meta name="HandheldFriendly" content="true">
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--link to external .css stylesheet made by Juliana-->
+  <link href="css/headerFooter.css" rel="stylesheet">
+  <!--link to external .css stylesheet made by Amy-->
+  <script src="js/images.js"></script>
+  <!--link external JavaScript-->
+  <title>Hats</title>
+</head>
+
 <body>
   <!-- ***************  HEADER   **************** -->
   <header>
     <!-- woollen mill & co. logo-->
-    <div id = "fullHeader">
+    <div id="fullHeader">
       <div>
-        <a href="index.html"><img id = "logo" src = "images/logo.png" alt = "image of logo"></a>
+        <a href="index.html"><img id="logo" src="images/logo.png" alt="image of logo"></a>
       </div>
-    <!-- nav menu -->
-     <div>
-      <ul id="nav">
-        <li><a href="index.html">H O M E</a></li>
-      </ul>
-        <div class="dropdown"> <!--for dropdown menu of collections page-->
+      <!-- nav menu -->
+      <div>
+        <ul id="nav">
+          <li><a href="index.html">H O M E</a></li>
+        </ul>
+        <div class="dropdown">
+          <!--for dropdown menu of collections page-->
           <ul id="nav1">
-            <li><a href="Collection.html">C O L L E C T I O N </a></li> </ul>
-              <div class="dropdown-content"><!--drop down menu -->
-                <ul style="list-style-type: none;">
-                    <li><a href="hatdetails.html">H A T S</a></li>
-                    <li><a href="scarfdetails.html">S C A R V E S</a></li>
-                    <li><a href="glovedetails.html">G L O V E S</a></li></ul>
-                    </div>
-                </div>
-              <ul id="nav2">
-              <li><a href="ourstory.html">O U R &nbsp;&nbsp; S T O R Y</a></li><!--'&nbsp;' to create empty space-->
-              <li><a href="Contact.html">C O N T A C T</a></li>
-              <li><a href="search.html">S E A R C H</a></li>
-              <li><a href="login.html"><img id = "userIcon" src = "images/user.png" alt = "user icon"></a>
+            <li><a href="Collection.html">C O L L E C T I O N </a></li>
+          </ul>
+          <div class="dropdown-content">
+            <!--drop down menu -->
+            <ul style="list-style-type: none;">
+              <li><a href="hatdetails.html">H A T S</a></li>
+              <li><a href="scarfdetails.html">S C A R V E S</a></li>
+              <li><a href="glovedetails.html">G L O V E S</a></li>
             </ul>
           </div>
+        </div>
+        <ul id="nav2">
+          <li><a href="ourstory.html">O U R &nbsp;&nbsp; S T O R Y</a></li>
+          <!--'&nbsp;' to create empty space-->
+          <li><a href="Contact.html">C O N T A C T</a></li>
+          <li><a href="search.html">S E A R C H</a></li>
+          <li><a href="login.html"><img id="userIcon" src="images/user.png" alt="user icon"></a>
+        </ul>
+      </div>
       <!--header begins here-->
       <div class="header">
         <p> H A T S</p>
-      </diimg
+      </div>
     </div>
   </header>
   <main>
     <section class="products">
       <div class="content-wrap divider">
-        <label id = "h10">H A N D - K N I T &nbsp;&nbsp; H A T S</label>
+        <label id="h10">H A N D - K N I T &nbsp;&nbsp; H A T S</label>
         <!-- About 1 -->
         <section>
           <div>
             <ul class="product-img">
               <li><span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-                <img src="images/hat1.jpg" id="expandedImg" width="320px;">   
+                <img src="images/hat1.jpg" id="expandedImg" alt="hat" style="width:320px;">
               </li>
             </ul>
             <ul class="product-desc">
               <li>
-                <div id="imgtext"><p>Stylish hand-knitted hats that will keep you warm throughout the seasons.</br></br>
-                  They are knit with traditional Aran stitching to add a touch of Irish heritage. </br></br>Rib-knit cuffs seal in warmth and provide a great fit. 
-                  The wool came directly from our Woollen Mill farm where all animals are treated with respect and love.</br></br> 
-                  These classic, cozy and luxurious hats are the perfect addition to your wardrobe. </br></br> &euro;16</p></div>
+                <div id="imgtext">
+                  <p>Stylish hand-knitted hats that will keep you warm throughout the seasons.</br></br>
+                    They are knit with traditional Aran stitching to add a touch of Irish heritage. </br></br>Rib-knit
+                    cuffs seal in warmth and provide a great fit.
+                    The wool came directly from our Woollen Mill farm where all animals are treated with respect and
+                    love.</br></br>
+                    These classic, cozy and luxurious hats are the perfect addition to your wardrobe. </br></br>
+                    &euro;16</p>
+                </div>
               </li>
             </ul>
           </div>
@@ -82,29 +96,34 @@
               <li> <img src="images/hat1.jpg" alt="Stylish hand-knitted hats that will keep you warm throughout the seasons.</br></br>
                 They are knit with traditional Aran stitching to add a touch of Irish heritage. </br></br>Rib-knit cuffs seal in warmth and provide a great fit. 
                 The wool came directly from our Woollen Mill farm where all animals are treated with respect and love. </br></br>
-                These classic, cozy and luxurious hats are the perfect addition to your wardrobe. </br></br> &euro;16" style="width:100px;" onclick="imgFunction(this);"></li>
+                These classic, cozy and luxurious hats are the perfect addition to your wardrobe. </br></br> &euro;16"
+                  style="width:100px;" onclick="imgFunction(this);"></li>
             </ul>
             <ul class="tumble-img">
               <li> <img src="images/hat2.jpg" alt="Perfect hats for coldest winter days.</br></br>The beauty of handwork is in its slight variations in size, color and design contribute to making each piece unique. </br></br>
                 The wool came directly from our Woollen Mill farm where all animals are treated with respect and love. </br></br>
-                These classic, cozy and luxurious hats are the perfect addition to your wardrobe. </br> </br>&euro;19" style="width:100px;" onclick="imgFunction(this);"></li>
+                These classic, cozy and luxurious hats are the perfect addition to your wardrobe. </br> </br>&euro;19"
+                  style="width:100px;" onclick="imgFunction(this);"></li>
             </ul>
             <ul class="tumble-img">
               <li> <img src="images/hat3.jpg" alt="Beautifully hand-knitted to go with any style. </br></br>
                 Perfect with the flexibility of the regular hats and warmth of the hats. The beauty of handwork is in its slight variations in size, color and design contribute to making each piece unique.</br></br>
                 The wool came directly from our Woollen Mill farm where all animals are treated with respect and love. </br></br>
-                These classic, cozy and luxurious hats are the perfect addition to your wardrobe. </br> </br> &euro;14" style="width:100px;" onclick="imgFunction(this);"></li>
+                These classic, cozy and luxurious hats are the perfect addition to your wardrobe. </br> </br> &euro;14"
+                  style="width:100px;" onclick="imgFunction(this);"></li>
             </ul>
             <ul class="tumble-img">
               <li> <img src="images/hat4.jpg" alt="Unique hand-knit hats for coldest winter days.</br></br>
                The beauty of handwork is in its slight variations in size, color and design contribute to making each piece unique. </br></br>
                The wool came directly from our Woollen Mill farm where all animals are treated with respect and love. </br></br>
-                These classic, cozy and luxurious hats are the perfect addition to your wardrobe.</br> </br> &euro;19" style="width:100px;" onclick="imgFunction(this);"></li>
+                These classic, cozy and luxurious hats are the perfect addition to your wardrobe.</br> </br> &euro;19"
+                  style="width:100px;" onclick="imgFunction(this);"></li>
             </ul>
             <ul class="tumble-img">
               <li><img src="images/hat5.jpg" alt="Perfect hats for coldest winter days.</br></br>The beauty of handwork is in its slight variations in size, color and design contribute to making each piece unique. </br></br>
                 The wool came directly from our Woollen Mill farm where all animals are treated with respect and love. </br></br>
-                These classic, cozy and luxurious hats are the perfect addition to your wardrobe. </br> </br> &euro;17" style="width:100px;" onclick="imgFunction(this);"></li>
+                These classic, cozy and luxurious hats are the perfect addition to your wardrobe. </br> </br> &euro;17"
+                  style="width:100px;" onclick="imgFunction(this);"></li>
             </ul>
           </div>
         </section>
@@ -123,8 +142,8 @@
         <li><a href="#">Terms and Conditions</a></li>
         <li><a href="#">FAQs</a></li>
       </ul>
-        <img id = "sheep" src = "images/gif/walkingsheep.gif" alt = "sheep gif">
-      <p id = "copy"><i>© 2020 Woollen Mill & Co. All Rights Reserved</i></p>
+      <img id="sheep" src="images/gif/walkingsheep.gif" alt="sheep gif">
+      <p id="copy"><i>© 2020 Woollen Mill & Co. All Rights Reserved</i></p>
     </div>
   </footer>
 </body>
