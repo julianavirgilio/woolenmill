@@ -145,7 +145,7 @@ function myFunction() {
     txtValue = a.textContent || a.innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) { // if input value equals product display
       li[i].style.display = "";
-    } else {
+    }else{
       li[i].style.display = "none"; //else hide product
     }
   }

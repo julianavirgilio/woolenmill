@@ -74,7 +74,7 @@ opacity:50%;
 
 /****** navigation menu *******/
 
-#nav {
+#nav, #nav1, #nav2 {
 width: 80%; /*makes the menu width the same as the window width*/ 
 list-style: none; /*removes bullets from the list*/
 padding-left: 13%;
