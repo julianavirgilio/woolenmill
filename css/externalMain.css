@@ -296,6 +296,7 @@ text-align: center;
 display: block; /*fills up the entire list item and makes the whole area clickable*/
 text-decoration: none; /*removes the underline from the anchor*/ 
 text-align: center;
+color:black;
 }
 
 #productList li a:hover{
