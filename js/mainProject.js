@@ -69,7 +69,7 @@ function validateFormLogin()
   	var all=document.forms["loginForm"]["contactEmail1" && "password"].value;
 	if (all != null || all!="") //if all input is not null or blank
 	{
- 	window.location.href="http://www.google.com";
+ 	  alert("Successful login. You will now be redirected to our home page.");
   	return true;
   	}
   }
@@ -119,7 +119,7 @@ function validateFormLogin()
   	var password2=document.forms["newLoginForm"]["password2"].value;
 	if (password2==password1) //check if password characters match
 	{
- 	alert("Your account has been created");
+ 	alert("Successful registration. You will now be redirected to our home page.");
   	return true; 
   	}
   }

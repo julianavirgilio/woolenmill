@@ -9,7 +9,11 @@
 		<link rel="icon" href="images/logo.png" type="image/png">
 		<link href = "css/externalLogin.css" rel = "stylesheet">
 		<link href = "css/externalMain.css" rel = "stylesheet"> <!--link to external .css stylesheet-->
+		<link href="jQueryPlugin/jquery.alerts.css" rel="stylesheet"> <!-- js alert plugin1 .css stylesheet-->	
 		<script src="js/mainProject.js"></script> <!--link external JavaScript-->
+		<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script><!-- jquery for alerts plugin-->
+		<script src="jQueryPlugin/jquery.alerts.js"></script> <!-- jquery alerts plugin1-->
+		<link href="jQueryPlugin/jquery.alerts.css" rel="stylesheet"> <!-- js alert plugin1 .css stylesheet-->	
 		<title>Login</title>
 	</head>	
 		<body>
@@ -43,7 +47,7 @@
 		</div>		
 <!-- existing customer login form begins here-->
 			<div class = "loginForm">
-				<form name="loginForm" id = "loginForm" method="post" action=" mailto:x20163266@student.ncirl.ie" onsubmit="return !! validateFormLogin()"> <!-- call validate function in 'form' tag when user clicks submit button-->
+				<form name="loginForm" id = "loginForm" method="post" action="index.html" onsubmit="return !! validateFormLogin()"> <!-- call validate function in 'form' tag when user clicks submit button-->
 			<table> 
 <!-- existing cutomer name input field -->
 				<tr>
@@ -85,7 +89,7 @@
 	</div>
 <!-- new customer login form begins here-->
 	<div class = "newLoginForm">
-				<form name="newLoginForm" id = "newLoginForm" method="post" action=" mailto:x20163266@student.ncirl.ie" onsubmit="return !! validateFormLogin2()"> <!-- call validate function in 'form' tag when user clicks submit button-->
+				<form name="newLoginForm" id = "newLoginForm" method="post" action="index.html" onsubmit="return !! validateFormLogin2()"> <!-- call validate function in 'form' tag when user clicks submit button-->
 			<table> 
 <!-- new customer header -->
 				<tr>
