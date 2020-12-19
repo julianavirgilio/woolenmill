@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/styles.css"><!--link to external .css stylesheet made by Juliana-->
     <link href="css/headerFooter.css" rel="stylesheet"><!--link to external .css stylesheet made by Amy-->
     <script src="js/mainProject.js"></script> <!--link external JavaScript-->
+    <script src="js/images.js"></script> <!--link external JavaScript-->
     <title>Scarves</title>
   </head>
 
@@ -83,31 +84,31 @@
               <li> <img src="images/scarf1.png" alt="Stylish hand-knitted scarves that will keep you warm throughout the seasons.</br></br>
                 They are knit with traditional Aran stitching to add a touch of Irish heritage. </br></br>Rib-knit cuffs seal in warmth and provide a great fit. </br></br>
                 The wool came directly from our Woollen Mill farm where all animals are treated with respect and love.</br></br> 
-                These classic, cozy and luxurious scarves are the perfect addition to your wardrobe. </br></br><i>&euro;16</i>" style="width:100px;" onclick="myFunction(this);"></li>
+                These classic, cozy and luxurious scarves are the perfect addition to your wardrobe. </br></br><i>&euro;16</i>" style="width:100px;" onclick="imgFunction(this);"></li>
             </ul>
             <ul class="tumble-img">
               <li> <img src="images/scarf2.png" alt="Perfect scarves with a unique knit pattern made for coldest winter days. </br></br>
                 Designed with the texting feature in mind with an opening for the thumb. The beauty of handwork is in its slight variations in size, color and design contribute to making each piece unique. </br></br>
                 The wool came directly from our Woollen Mill farm where all animals are treated with respect and love. </br></br>
-                These classic, cozy and luxurious scarves are the perfect addition to your wardrobe.</br> </br> &euro;19" style="width:100px;" onclick="myFunction(this);"></li>
+                These classic, cozy and luxurious scarves are the perfect addition to your wardrobe.</br> </br> &euro;19" style="width:100px;" onclick="imgFunction(this);"></li>
             </ul>
             <ul class="tumble-img">
               <li> <img src="images/scarf3.png" alt="Beautifully hand-knitted to go with any style. </br></br>
                 Perfect with the flexibility of the regular scarves and warmth of the scarves. The beauty of handwork is in its slight variations in size, color and design contribute to making each piece unique.</br></br>
                 The wool came directly from our Woollen Mill farm where all animals are treated with respect and love. </br></br>
-                These classic, cozy and luxurious scarves are the perfect addition to your wardrobe. </br> </br> &euro;14" style="width:100px;" onclick="myFunction(this);"></li>
+                These classic, cozy and luxurious scarves are the perfect addition to your wardrobe. </br> </br> &euro;14" style="width:100px;" onclick="imgFunction(this);"></li>
             </ul>
             <ul class="tumble-img">
               <li> <img src="images/scarf4.png" alt="Unique hand-knit scarves for coldest winter days. </br></br>
                 Designed with the texting feature in mind with an opening for the thumb. The beauty of handwork is in its slight variations in size, color and design contribute to making each piece unique. </br></br>
                 The wool came directly from our Woollen Mill farm where all animals are treated with respect and love. </br></br>
-                These classic, cozy and luxurious scarves are the perfect addition to your wardrobe.</br> </br> &euro;19" style="width:100px;" onclick="myFunction(this);"></li>
+                These classic, cozy and luxurious scarves are the perfect addition to your wardrobe.</br> </br> &euro;19" style="width:100px;" onclick="imgFunction(this);"></li>
             </ul>
             <ul class="tumble-img">
               <li><img src="images/scarf5.png" alt="Perfect scarves for coldest winter days.</br></br> 
                 Designed with the texting feature in mind with an opening for the thumb. The beauty of handwork is in its slight variations in size, color and design contribute to making each piece unique. </br></br>
                 The wool came directly from our Woollen Mill farm where all animals are treated with respect and love. </br></br>
-                These classic, cozy and luxurious scarves are the perfect addition to your wardrobe. </br> </br> &euro;17" style="width:100px;" onclick="myFunction(this);"></li>
+                These classic, cozy and luxurious scarves are the perfect addition to your wardrobe. </br> </br> &euro;17" style="width:100px;" onclick="imgFunction(this);"></li>
             </ul>
           </div>
         </section>
@@ -130,15 +131,6 @@
       <p id = "copy"><i>© 2020 Woollen Mill & Co. All Rights Reserved</i></p>
     </div>
   </footer>
-  <script>
-    function myFunction(imgs) {
-      var expandImg = document.getElementById("expandedImg");
-      var imgText = document.getElementById("imgtext");
-      expandImg.src = imgs.src;
-      imgText.innerHTML = imgs.alt;
-      expandImg.parentElement.style.display = "block";
-    }
-  </script>
 </body>
 
 </html>
