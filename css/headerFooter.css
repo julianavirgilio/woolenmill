@@ -102,6 +102,63 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 color: #736779;
 text-decoration: underline;
 }
+#nav1{
+width: 80%; /*makes the menu width the same as the window width*/ 
+list-style: none; /*removes bullets from the list*/
+padding-left: 13%;
+padding-bottom: 0;
+z-index: 9999;
+}
+
+#nav1 li {
+float: left; /*floats list items left*/
+clear:right;
+padding-left:9.3%;
+font-size:80%;
+padding-top: 1%;
+}
+
+#nav1 li a {
+/*display: block;*/ /*fills up the entire list item and makes the whole area clickable*/
+text-decoration: none; /*removes the underline from the anchor*/ 
+font-weight: bold;
+color: black;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#nav1 li a:hover {
+color: #736779;
+text-decoration: underline;
+}
+
+#nav2{
+width: 80%; /*makes the menu width the same as the window width*/ 
+list-style: none; /*removes bullets from the list*/
+padding-left: 13%;
+padding-bottom: 0;
+z-index: 9999;
+}
+
+#nav2 li {
+float: left; /*floats list items left*/
+clear:right;
+padding-left:9.3%;
+font-size:80%;
+padding-top: 1%;
+}
+
+#nav2 li a {
+/*display: block;*/ /*fills up the entire list item and makes the whole area clickable*/
+text-decoration: none; /*removes the underline from the anchor*/ 
+font-weight: bold;
+color: black;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#nav2 li a:hover {
+color: #736779;
+text-decoration: underline;
+}
 
  /******* DROPDOWN NAV ******/
  
