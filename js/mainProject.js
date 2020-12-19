@@ -1,7 +1,10 @@
 
+
 // AUTHOR @ AMY PERCIVAL
 
+
 //CONTACT FORM VALIDATION
+
 function validateForm() 
 	{
 //name not blank
@@ -46,6 +49,7 @@ function validateForm()
   }
 
 //LOGIN FORM VALIDATION
+
 function validateFormLogin() 
 	{
 
